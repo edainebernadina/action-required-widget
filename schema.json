@@ -1,7 +1,7 @@
 {
   "templateKey": "widget-action-required-v1",
   "name": "Action Required",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Shows posts pending read-and-acknowledge for the signed-in user (same data as profile Action Required).",
   "icon": "images/action-required.svg",
   "author": {
@@ -22,19 +22,6 @@
   "configuration": {
     "fields": [
       {
-        "name": "widgetTitle",
-        "type": "text",
-        "label": "Widget title",
-        "description": "Heading shown above the list.",
-        "groupName": "Display",
-        "groupKey": "display",
-        "default": "Action Required",
-        "validation": {
-          "required": false,
-          "maxLength": 80
-        }
-      },
-      {
         "name": "buttonLabel",
         "type": "text",
         "label": "Button label",
@@ -54,7 +41,7 @@
         "description": "Maximum number of items to load. Up to four are visible at once; additional rows scroll inside the list.",
         "groupName": "Display",
         "groupKey": "display",
-        "default": 50,
+        "default": 5,
         "validation": {
           "min": 1,
           "max": 50,

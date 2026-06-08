@@ -93,9 +93,8 @@ const localized = (field, fallback, lang) => {
 };
 
 const defaultConfig = {
-  widgetTitle: 'Action Required',
   buttonLabel: 'Read and acknowledge',
-  maxItems: 50,
+  maxItems: 5,
   acknowledgeUrlTemplate: '',
 };
 
@@ -189,7 +188,7 @@ const ActionRequired = () => {
       start += batch.length;
     }
 
-    const cap = Math.min(50, Math.max(1, Number(cfg.maxItems) || 50));
+    const cap = Math.min(50, Math.max(1, Number(cfg.maxItems) || 5));
     setItems(all.slice(0, cap));
 
     if (api.raiseAnalyticsEvent) {
@@ -276,7 +275,6 @@ const ActionRequired = () => {
           const lang = widgetConfig?.data?.languageKey || 'en';
           effectiveConfig = {
             ...effectiveConfig,
-            widgetTitle: localized(cfg.widgetTitle, effectiveConfig.widgetTitle, lang),
             buttonLabel: localized(cfg.buttonLabel, effectiveConfig.buttonLabel, lang),
             maxItems:
               cfg.maxItems?.value != null ? Number(cfg.maxItems.value) : effectiveConfig.maxItems,
@@ -322,7 +320,7 @@ const ActionRequired = () => {
 
   useLayoutEffect(() => {
     remeasureScrollCap();
-  }, [items, loading, error, config.widgetTitle, config.buttonLabel, remeasureScrollCap]);
+  }, [items, loading, error, config.buttonLabel, remeasureScrollCap]);
 
   useEffect(() => {
     const el = listScrollRef.current;
@@ -368,7 +366,6 @@ const ActionRequired = () => {
 
   return (
     <div className="widget-container" ref={containerRef}>
-      <h2 className="widget-title">{config.widgetTitle}</h2>
       <div
         className={[
           'widget-card',

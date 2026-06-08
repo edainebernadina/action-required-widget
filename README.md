@@ -21,7 +21,7 @@ npm install
 npm run build
 ```
 
-Upload `dist/widget-action-required-1.1.0.zip` to Appspace Console as a custom widget template.
+Upload `dist/widget-action-required-1.1.2.zip` to Appspace Console as a custom widget template.
 
 ## Local development
 
@@ -49,9 +49,8 @@ webpack.config.js
 
 | Field | Default | Description |
 |-------|---------|-------------|
-| `widgetTitle` | `Action Required` | Heading above the list |
 | `buttonLabel` | `Read and acknowledge` | Primary action label on each row |
-| `maxItems` | `50` | Maximum posts to load (1–50) |
+| `maxItems` | `5` | Maximum posts to load (1–50) |
 | `acknowledgeUrlTemplate` | _(empty)_ | Optional URL override; blank uses console deep links |
 
 ## Template key

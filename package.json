@@ -1,6 +1,6 @@
 {
   "name": "action-required",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Lists posts the current user must read and acknowledge, matching the profile Action Required experience",
   "private": true,
   "scripts": {
