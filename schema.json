@@ -1,0 +1,105 @@
+{
+  "templateKey": "widget-action-required-v1",
+  "name": "Action Required",
+  "version": "1.0.11",
+  "description": "Shows posts pending read-and-acknowledge for the signed-in user (same data as profile Action Required).",
+  "icon": "images/action-required.svg",
+  "author": {
+    "name": "WXI Team",
+    "company": "WXI Team",
+    "email": "wxi@company.com"
+  },
+  "widgetType": "custom",
+  "authentication": [],
+  "appspaceApis": [
+    {
+      "label": "My acknowledgment posts",
+      "name": "getMyAcknowledgmentPosts",
+      "path": "contentfeed/posts/acknowledgment/me",
+      "method": "GET"
+    }
+  ],
+  "configuration": {
+    "fields": [
+      {
+        "name": "widgetTitle",
+        "type": "text",
+        "label": "Widget title",
+        "description": "Heading shown above the list.",
+        "groupName": "Display",
+        "groupKey": "display",
+        "default": "Action Required",
+        "validation": {
+          "required": false,
+          "maxLength": 80
+        }
+      },
+      {
+        "name": "buttonLabel",
+        "type": "text",
+        "label": "Button label",
+        "description": "Label on each row's primary action.",
+        "groupName": "Display",
+        "groupKey": "display",
+        "default": "Read and acknowledge",
+        "validation": {
+          "required": false,
+          "maxLength": 80
+        }
+      },
+      {
+        "name": "maxItems",
+        "type": "number",
+        "label": "Maximum items to show",
+        "description": "Maximum number of items to load. Up to four are visible at once; additional rows scroll inside the list.",
+        "groupName": "Display",
+        "groupKey": "display",
+        "default": 50,
+        "validation": {
+          "min": 1,
+          "max": 50,
+          "required": true
+        }
+      },
+      {
+        "name": "acknowledgeUrlTemplate",
+        "type": "text",
+        "label": "Acknowledge URL template (optional)",
+        "description": "Override link for the button. Use {postId}, {origin}, and {type} placeholders. Leave blank to build a console deep link from post type.",
+        "groupName": "Advanced",
+        "groupKey": "advanced",
+        "default": "",
+        "validation": {
+          "required": false,
+          "maxLength": 500
+        }
+      }
+    ]
+  },
+  "ui": {
+    "defaultHeight": 250,
+    "skeletonType": "custom"
+  },
+  "analyticsEvents": [
+    {
+      "name": "widgetLoaded",
+      "metadata": [
+        {
+          "key": "itemCount",
+          "description": "Number of acknowledgment items returned",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "name": "acknowledgmentOpened",
+      "metadata": [
+        {
+          "key": "postId",
+          "description": "Post or content id opened",
+          "isRequired": true
+        }
+      ]
+    }
+  ]
+}

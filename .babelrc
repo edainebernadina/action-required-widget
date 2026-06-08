@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-bugfix-firefox-class-in-computed-class-key"
+  ]
+}
