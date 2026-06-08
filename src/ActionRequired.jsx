@@ -86,6 +86,12 @@ const extractItems = (data) => {
   return [];
 };
 
+const localized = (field, fallback, lang) => {
+  if (!field) return fallback;
+  const variation = field.variations?.find((v) => v.lang === lang);
+  return variation?.value ?? field.value ?? fallback;
+};
+
 const defaultConfig = {
   widgetTitle: 'Action Required',
   buttonLabel: 'Read and acknowledge',
@@ -101,36 +107,24 @@ const isSchemaNotReadyError = (err) => {
 /** Number of rows visible before the list becomes scrollable */
 const VISIBLE_ROW_CAP = 4;
 
-/**
- * Tighter `gap` between list rows as more items load, so the block uses the ~250px host slot
- * more evenly without a dead band of empty space.
- */
 const getListRowGapPx = (n) => {
   if (n < 2) return 16;
   if (n === 2) return 14;
   if (n === 3) return 8;
   if (n === 4) return 5;
-  return 4; // 5+ (scroll) — same rule as 4+ rows, tightest
+  return 4;
 };
 
 const getBodyInnerGapPx = (n) => {
   if (n < 2) return 8;
   if (n < 3) return 6;
-  return 4; // 3+ — between title and button
+  return 4;
 };
 
 const getCompactThumb = (n) => n >= 4;
 
-
-/**
- * Appspace host wraps custom widgets in a node with `min-height: 250px` (styled-components
- * in the console). A smaller `setHeight` + inline `height` loses to that min, which leaves
- * a visible band. We call `setHeight` with at least this value so the iframe height the host
- * applies matches the slot, and the iframe is filled (see `index.css` page tone below the card).
- */
-const HOST_IFRAME_MIN_HEIGHT_PX = 250;
-
 const ActionRequired = () => {
+  const [themeReady, setThemeReady] = useState(false);
   const [config, setConfig] = useState(defaultConfig);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -156,20 +150,6 @@ const ActionRequired = () => {
         }
       }
     }
-  }, []);
-
-  const updateHeight = useCallback(() => {
-    const api = getWidgetApi();
-    const el = containerRef.current;
-    if (!el || !api?.setHeight) return;
-    // Use the larger of layout box and scrollable overflow (avoids under-reporting when flex used to clip)
-    const contentPx = Math.max(
-      el.offsetHeight,
-      el.scrollHeight,
-      el.getBoundingClientRect().height
-    );
-    const target = Math.max(Math.ceil(contentPx), HOST_IFRAME_MIN_HEIGHT_PX);
-    api.setHeight(target).catch(() => {});
   }, []);
 
   const remeasureScrollCap = useCallback(() => {
@@ -261,19 +241,45 @@ const ActionRequired = () => {
 
   useEffect(() => {
     isMountedRef.current = true;
+    let cancelled = false;
 
     const load = async () => {
-      let effectiveConfig = { ...defaultConfig };
       const api = getWidgetApi();
+
+      if (api?.onLoading) {
+        try {
+          await api.onLoading();
+        } catch (err) {
+          console.warn('[ActionRequired] onLoading failed:', err);
+        }
+      }
+
+      if (api && typeof api.getTheme === 'function') {
+        try {
+          const theme = await api.getTheme();
+          if (!cancelled) {
+            api.applyThemeToDocument(theme);
+          }
+        } catch (err) {
+          console.warn('[ActionRequired] Theme fetch failed:', err);
+        }
+      }
+      if (!cancelled) {
+        setThemeReady(true);
+      }
+
+      let effectiveConfig = { ...defaultConfig };
       if (api) {
         try {
           const widgetConfig = await api.getConfiguration();
           const cfg = widgetConfig?.data?.configuration || {};
+          const lang = widgetConfig?.data?.languageKey || 'en';
           effectiveConfig = {
             ...effectiveConfig,
-            widgetTitle: cfg.widgetTitle?.value ?? effectiveConfig.widgetTitle,
-            buttonLabel: cfg.buttonLabel?.value ?? effectiveConfig.buttonLabel,
-            maxItems: cfg.maxItems?.value != null ? Number(cfg.maxItems.value) : effectiveConfig.maxItems,
+            widgetTitle: localized(cfg.widgetTitle, effectiveConfig.widgetTitle, lang),
+            buttonLabel: localized(cfg.buttonLabel, effectiveConfig.buttonLabel, lang),
+            maxItems:
+              cfg.maxItems?.value != null ? Number(cfg.maxItems.value) : effectiveConfig.maxItems,
             acknowledgeUrlTemplate:
               cfg.acknowledgeUrlTemplate?.value ?? effectiveConfig.acknowledgeUrlTemplate,
           };
@@ -282,35 +288,49 @@ const ActionRequired = () => {
           console.error('[ActionRequired] getConfiguration failed:', e);
         }
       }
+
       await fetchData(effectiveConfig);
+
+      if (api?.onLoaded) {
+        try {
+          await api.onLoaded();
+        } catch (err) {
+          console.warn('[ActionRequired] onLoaded failed:', err);
+        }
+      }
     };
 
     load();
 
     return () => {
+      cancelled = true;
       isMountedRef.current = false;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- single bootstrap after mount (matches praise-leaderboard)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- single bootstrap after mount
+  }, []);
+
+  useEffect(() => {
+    const onBeforeUnload = () => {
+      const api = getWidgetApi();
+      if (api?.onDestroy) {
+        api.onDestroy().catch(() => {});
+      }
+    };
+    window.addEventListener('beforeunload', onBeforeUnload);
+    return () => window.removeEventListener('beforeunload', onBeforeUnload);
   }, []);
 
   useLayoutEffect(() => {
     remeasureScrollCap();
-    const id = requestAnimationFrame(() => updateHeight());
-    return () => cancelAnimationFrame(id);
-  }, [items, loading, error, config.widgetTitle, config.buttonLabel, remeasureScrollCap, updateHeight]);
+  }, [items, loading, error, config.widgetTitle, config.buttonLabel, remeasureScrollCap]);
 
   useEffect(() => {
-    const el = containerRef.current;
+    const el = listScrollRef.current;
     if (!el || typeof ResizeObserver === 'undefined') return;
-    const onResize = () => {
-      remeasureScrollCap();
-      updateHeight();
-    };
-    const ro = new ResizeObserver(onResize);
+    const ro = new ResizeObserver(() => remeasureScrollCap());
     ro.observe(el);
-    onResize();
     return () => ro.disconnect();
-  }, [remeasureScrollCap, updateHeight]);
+  }, [items.length, remeasureScrollCap]);
 
   const openAcknowledgment = (item) => {
     const href = resolveActionUrl(item, config);
@@ -330,6 +350,10 @@ const ActionRequired = () => {
     }
     window.open(href, '_blank', 'noopener,noreferrer');
   };
+
+  if (!themeReady) {
+    return null;
+  }
 
   const n = items.length;
   const listRowGap = getListRowGapPx(n);
@@ -386,7 +410,6 @@ const ActionRequired = () => {
               className={['ack-list', listLayoutClass].filter(Boolean).join(' ')}
               aria-label="Acknowledgment items"
               style={{
-                // Stacked 5+ only: gap shrinks with count. Distribute 1–4: no row gap; flex spreads rows.
                 ...(isScroll ? { ['--ack-list-gap']: `${listRowGap}px` } : {}),
                 ['--ack-body-inner-gap']: `${bodyInnerGap}px`,
               }}
@@ -396,10 +419,7 @@ const ActionRequired = () => {
                 const title = normalizeTitle(raw);
                 const img = pickCoverUrl(raw);
                 return (
-                  <li
-                    key={key}
-                    className="ack-row"
-                  >
+                  <li key={key} className="ack-row">
                     <div className="ack-thumb-wrap">
                       {img ? (
                         <img className="ack-thumb" src={img} alt="" loading="lazy" />

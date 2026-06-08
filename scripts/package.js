@@ -30,5 +30,14 @@ const schemaSource = path.join(__dirname, '../schema.json');
 const schemaDest = path.join(distPath, 'schema.json');
 fs.copyFileSync(schemaSource, schemaDest);
 
+const passportSource = path.join(__dirname, '../passport');
+if (fs.existsSync(passportSource)) {
+  const passportDest = path.join(distPath, 'passport');
+  fs.mkdirSync(passportDest, { recursive: true });
+  fs.readdirSync(passportSource).forEach((file) => {
+    fs.copyFileSync(path.join(passportSource, file), path.join(passportDest, file));
+  });
+}
+
 archive.directory(distPath, false);
 archive.finalize();

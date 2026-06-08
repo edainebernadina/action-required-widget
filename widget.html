@@ -4,6 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Action Required</title>
+  <script>
+    (function() {
+      var appspace = window.appspace = window.appspace || {};
+
+      appspace.waitForWidgetApi = function(timeout) {
+        if (appspace.widgetApi) return Promise.resolve(appspace.widgetApi);
+        return new Promise(function(resolve, reject) {
+          var timer = setTimeout(function() {
+            reject(new Error('Widget API did not load within ' + (timeout || 10000) + 'ms'));
+          }, timeout || 10000);
+          window.addEventListener('appspace:widgetapi:ready', function() {
+            clearTimeout(timer);
+            resolve(appspace.widgetApi);
+          }, { once: true });
+        });
+      };
+
+      var params = new URLSearchParams(window.location.search);
+      var consoleUrl = params.get('consoleUrl');
+      if (consoleUrl) {
+        var v = params.get('v');
+        var script = document.createElement('script');
+        script.src = consoleUrl + '/libs/widget-api.min.js' + (v ? '?v=' + v : '');
+        script.async = false;
+        document.currentScript.parentNode.insertBefore(script, document.currentScript.nextSibling);
+      }
+    })();
+  </script>
 </head>
 <body>
   <div id="root"></div>

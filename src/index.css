@@ -1,69 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Let the document grow with content; setHeight() resizes the host iframe. */
-html {
-  min-height: 100%;
-  height: auto;
-}
-
 html,
 body {
   margin: 0;
   padding: 0;
-  /* Don’t lock body to iframe height — that forces the card to shrink and clips tall rows. */
-  min-height: 100%;
   height: auto;
   overflow-x: hidden;
   overflow-y: visible;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-family: var(--nc-fontFamilies__regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #ffffff;
+  background: var(--nc-colors__backgroundColor, #ffffff);
+  color: var(--nc-colors__neutral900, #1e293b);
 }
 
 #root {
   width: 100%;
-  min-height: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  background: #ffffff;
-  flex: 0 0 auto;
 }
 
 .widget-container {
   width: 100%;
-  min-height: min-content;
   height: auto;
   display: flex;
   flex-direction: column;
   padding: 4px;
   box-sizing: border-box;
-  background: #ffffff;
-  flex: 0 0 auto;
+  background: var(--nc-colors__backgroundColor, #ffffff);
   overflow: visible;
 }
 
 .widget-card {
   display: flex;
   flex-direction: column;
-  /* Natural height: grows with list so long titles / 3+ rows are not cut off. */
   flex: 0 0 auto;
   min-height: min-content;
   overflow: visible;
-  background: #ffffff;
-  border-radius: 16px;
+  background: var(--nc-colors__backgroundColor, #ffffff);
+  border-radius: var(--nc-custom-radii__pageComponentBrand, 16px);
   padding: 16px 16px 14px;
-  border: 1px solid #dde3ee;
+  border: 1px solid var(--nc-colors__neutral200, #dde3ee);
 }
 
-/* Tighter card padding as more items appear (pairs with dynamic list row gap) */
 .widget-card--medium {
   padding: 15px 15px 12px;
 }
@@ -72,12 +54,12 @@ body {
   padding: 12px 12px 9px;
 }
 
-/* Outside the bordered card (aligns with Audio Digest and other home widgets) */
 .widget-container > .widget-title {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
-  color: #1e293b;
+  font-family: var(--nc-fontFamilies__headlines, inherit);
+  color: var(--nc-colors__neutral900, #1e293b);
   margin: 0;
   padding-bottom: 16px;
   flex-shrink: 0;
@@ -90,11 +72,11 @@ body {
   gap: 10px;
   min-height: 72px;
   font-size: 14px;
-  color: #475369;
+  color: var(--nc-colors__neutral600, #475369);
 }
 
 .widget-state--error {
-  color: #c94040;
+  color: var(--nc-colors__error, #c94040);
   text-align: center;
   padding: 8px;
 }
@@ -102,8 +84,8 @@ body {
 .widget-state--loading .spinner {
   width: 20px;
   height: 20px;
-  border: 2px solid #dde3ee;
-  border-top-color: #0a5beb;
+  border: 2px solid var(--nc-colors__neutral200, #dde3ee);
+  border-top-color: var(--nc-colors__brand1, #0a5beb);
   border-radius: 50%;
   animation: spin 0.85s linear infinite;
 }
@@ -117,7 +99,7 @@ body {
 .widget-empty {
   font-size: 14px;
   font-weight: 400;
-  color: #68768d;
+  color: var(--nc-colors__neutral500, #68768d);
   line-height: 1.4;
   padding: 8px 0 4px;
 }
@@ -126,7 +108,6 @@ body {
   min-height: min-content;
 }
 
-/* 1–4 non-scroll: natural height + space-evenly; tall content grows the card and iframe. */
 .ack-list-outer--fill {
   display: flex;
   flex: 0 0 auto;
@@ -150,12 +131,12 @@ body {
 }
 
 .ack-list-outer--scroll .ack-list::-webkit-scrollbar-track {
-  background: #f0f0f0;
+  background: var(--nc-colors__neutral100, #f0f0f0);
   border-radius: 4px;
 }
 
 .ack-list-outer--scroll .ack-list::-webkit-scrollbar-thumb {
-  background: #c4cede;
+  background: var(--nc-colors__neutral300, #c4cede);
   border-radius: 4px;
 }
 
@@ -166,14 +147,12 @@ body {
   min-height: min-content;
 }
 
-/* 5+ items: fixed gaps between rows (tighter as count grows); scrolls inside --ack-scroll-max */
 .ack-list--stacked {
   flex: 0 1 auto;
   justify-content: flex-start;
   gap: var(--ack-list-gap, 14px);
 }
 
-/* 2–4 items: rows spread evenly in the 250px slot; rows use .ack-row bottom margin for vertical rhythm */
 .ack-list--distribute {
   flex: 0 0 auto;
   min-height: min-content;
@@ -200,14 +179,14 @@ body {
 .ack-thumb {
   width: 56px;
   height: 56px;
-  border-radius: 8px;
+  border-radius: var(--nc-custom-radii__avatarBrand, 8px);
   object-fit: cover;
   display: block;
-  background: #f3f4f6;
+  background: var(--nc-colors__neutral100, #f3f4f6);
 }
 
 .ack-thumb--placeholder {
-  border: 1px solid #dde3ee;
+  border: 1px solid var(--nc-colors__neutral200, #dde3ee);
 }
 
 .ack-body {
@@ -235,25 +214,25 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
-  color: #1e293b;
-  background: #edf2f7;
-  border-radius: 8px;
+  color: var(--nc-colors__neutral900, #1e293b);
+  background: var(--nc-colors__neutral100, #edf2f7);
+  border-radius: var(--nc-custom-radii__buttonBrand, 8px);
   padding: 8px 14px;
   transition: background 0.15s ease, color 0.15s ease;
 }
 
 .ack-btn:hover {
-  background: #dde3ee;
-  color: #002169;
+  background: var(--nc-colors__neutral200, #dde3ee);
+  color: var(--nc-colors__brand1, #002169);
 }
 
 .ack-btn:focus-visible {
-  outline: 2px solid #0a5beb;
+  outline: 2px solid var(--nc-colors__brand1, #0a5beb);
   outline-offset: 2px;
 }
 
 .ack-btn:active {
-  background: #c4cede;
+  background: var(--nc-colors__neutral300, #c4cede);
 }
 
 .ack-btn--tight {

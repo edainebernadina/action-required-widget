@@ -1,7 +1,7 @@
 {
   "templateKey": "widget-action-required-v1",
   "name": "Action Required",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "Shows posts pending read-and-acknowledge for the signed-in user (same data as profile Action Required).",
   "icon": "images/action-required.svg",
   "author": {
@@ -10,7 +10,7 @@
     "email": "wxi@company.com"
   },
   "widgetType": "custom",
-  "authentication": [],
+  "supportedSpaceTypes": ["homepage", "community", "topic", "channel"],
   "appspaceApis": [
     {
       "label": "My acknowledgment posts",
@@ -78,7 +78,8 @@
   },
   "ui": {
     "defaultHeight": 250,
-    "skeletonType": "custom"
+    "skeletonType": "custom",
+    "autoHeight": true
   },
   "analyticsEvents": [
     {

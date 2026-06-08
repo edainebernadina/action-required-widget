@@ -14,6 +14,9 @@ module.exports = (env, argv) => {
       chunkFilename: 'chunks/[name]-[contenthash].js',
       clean: true,
     },
+    externals: {
+      'appspace-widget-api': 'window.appspace.widgetApi',
+    },
     module: {
       rules: [
         {
@@ -53,12 +56,9 @@ module.exports = (env, argv) => {
         directory: path.join(__dirname, 'dist'),
       },
       compress: true,
-      port: 5176,
+      port: 5173,
       hot: true,
       open: true,
-      historyApiFallback: {
-        index: '/widget.html',
-      },
     },
   };
 };
