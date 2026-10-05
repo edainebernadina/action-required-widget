@@ -1,8 +1,8 @@
 {
   "templateKey": "widget-action-required-v1",
   "name": "Action Required",
-  "version": "1.1.2",
-  "description": "Shows posts pending read-and-acknowledge for the signed-in user (same data as profile Action Required).",
+  "version": "2.0.0",
+  "description": "What the viewer still has to read and acknowledge. By default every pending item across the tenant with a button per row; can also list the tagged pages of one space with Acknowledged or read time, show due dates from a due- tag, and add tasks each viewer ticks off with Done.",
   "icon": "images/action-required.svg",
   "author": {
     "name": "WXI Team",
@@ -10,28 +10,307 @@
     "email": "wxi@company.com"
   },
   "widgetType": "custom",
-  "supportedSpaceTypes": ["homepage", "community", "topic", "channel"],
+  "supportedSpaceTypes": [
+    "homepage",
+    "community",
+    "topic",
+    "channel"
+  ],
   "appspaceApis": [
     {
       "label": "My acknowledgment posts",
       "name": "getMyAcknowledgmentPosts",
-      "path": "contentfeed/posts/acknowledgment/me",
+      "path": "contentfeed/posts/acknowledgment/me?start={param.start}&limit={param.limit}",
       "method": "GET"
+    },
+    {
+      "label": "List tagged pages in a Space",
+      "name": "getTaggedPages",
+      "path": "contentfeed/posts?feedIds={param.spaceId}&postTypes=Page&tags={param.tag}&limit=100",
+      "method": "GET"
+    },
+    {
+      "label": "List pages in a Space",
+      "name": "getSpacePages",
+      "path": "contentfeed/posts?feedIds={param.spaceId}&postTypes=Page&limit=100",
+      "method": "GET"
+    },
+    {
+      "label": "Get my acknowledgment of a page",
+      "name": "getPostAcknowledgment",
+      "path": "contentfeed/posts/{param.postId}?IncludeCurrentUserAcknowledgment=true",
+      "method": "GET"
+    },
+    {
+      "label": "Read my preferences (where ticked-off tasks are kept)",
+      "name": "getPrefs",
+      "path": "userpreference/users/me",
+      "method": "GET"
+    },
+    {
+      "label": "Save my preferences",
+      "name": "savePrefs",
+      "path": "userpreference/users/me",
+      "method": "PATCH",
+      "data": {
+        "additionalProperties": "{param.additionalProperties}"
+      }
     }
   ],
   "configuration": {
     "fields": [
       {
+        "name": "scope",
+        "type": "dropdown",
+        "label": "What to list",
+        "groupName": "Content",
+        "groupKey": "content",
+        "description": "Waiting for me: everything the viewer still has to acknowledge, from any space. Pages of one space: the pages of the space below, acknowledged or not.",
+        "options": [
+          {
+            "value": "pending",
+            "label": "Waiting for me"
+          },
+          {
+            "value": "space",
+            "label": "Pages of one space"
+          }
+        ],
+        "default": "pending"
+      },
+      {
+        "name": "spaceId",
+        "type": "text",
+        "label": "Space ID",
+        "groupName": "Content",
+        "groupKey": "content",
+        "description": "The ID at the end of the space's address. With Waiting for me it is optional and only keeps items from these spaces (separate several with commas); leave it empty for every space.",
+        "default": "",
+        "validation": {
+          "required": false,
+          "maxLength": 400
+        }
+      },
+      {
+        "name": "tag",
+        "type": "text",
+        "label": "Only with this tag",
+        "groupName": "Content",
+        "groupKey": "content",
+        "description": "For example must-read. Leave empty for every item.",
+        "default": "",
+        "validation": {
+          "required": false,
+          "maxLength": 80
+        }
+      },
+      {
+        "name": "showCompleted",
+        "type": "boolean",
+        "label": "Keep acknowledged pages in the list",
+        "groupName": "Content",
+        "groupKey": "content",
+        "description": "Acknowledged pages stay and say Acknowledged.",
+        "default": false,
+        "visibleWhen": {
+          "scope": "space"
+        }
+      },
+      {
+        "name": "tasks",
+        "type": "sections",
+        "label": "Tasks",
+        "groupName": "Tasks",
+        "groupKey": "tasks",
+        "description": "Things every viewer should do once, next to the pages. Each viewer ticks a task off with Done; it then stays off their list.",
+        "sectionConfig": {
+          "min": 0,
+          "max": 8,
+          "fields": [
+            {
+              "name": "title",
+              "type": "text",
+              "label": "Task",
+              "description": "For example: Confirm your emergency contact.",
+              "default": ""
+            },
+            {
+              "name": "note",
+              "type": "text",
+              "label": "Line under it",
+              "description": "For example: Takes one minute. Leave empty to show the due date.",
+              "default": ""
+            },
+            {
+              "name": "linkUrl",
+              "type": "text",
+              "label": "Link",
+              "description": "Where the task is done: a page, a form or another system.",
+              "default": ""
+            },
+            {
+              "name": "dueDate",
+              "type": "text",
+              "label": "Due date (YYYY-MM-DD)",
+              "description": "Optional. Sorts the task among the other items.",
+              "default": ""
+            }
+          ]
+        },
+        "default": []
+      },
+      {
+        "name": "layout",
+        "type": "dropdown",
+        "label": "Look",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "Cards: picture, title and a button per item. List: a quiet list with a line under each title.",
+        "options": [
+          {
+            "value": "cards",
+            "label": "Cards"
+          },
+          {
+            "value": "list",
+            "label": "List"
+          }
+        ],
+        "default": "cards"
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "label": "Line at the top",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "Leave empty to hide it.",
+        "default": "",
+        "validation": {
+          "required": false,
+          "maxLength": 200
+        }
+      },
+      {
         "name": "buttonLabel",
         "type": "text",
         "label": "Button label",
-        "description": "Label on each row's primary action.",
+        "description": "Label on each row's button (Cards), or the line under a page waiting for the viewer (List).",
         "groupName": "Display",
         "groupKey": "display",
         "default": "Read and acknowledge",
         "validation": {
           "required": false,
           "maxLength": 80
+        }
+      },
+      {
+        "name": "showReadTime",
+        "type": "boolean",
+        "label": "Show read time",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "Worked out from the page's word count.",
+        "default": false
+      },
+      {
+        "name": "readLabel",
+        "type": "text",
+        "label": "Read time label",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "{minutes} becomes the read time.",
+        "default": "Read, {minutes} min",
+        "validation": {
+          "required": false,
+          "maxLength": 80
+        },
+        "visibleWhen": {
+          "showReadTime": "true"
+        }
+      },
+      {
+        "name": "wordsPerMinute",
+        "type": "number",
+        "label": "Reading speed",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "Words per minute used for the read time.",
+        "default": 200,
+        "validation": {
+          "required": false,
+          "min": 100,
+          "max": 400
+        },
+        "visibleWhen": {
+          "showReadTime": "true"
+        }
+      },
+      {
+        "name": "showDueDates",
+        "type": "boolean",
+        "label": "Show due dates",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "A page tagged due-2026-10-09 is due on 9 October; items are then sorted by due date.",
+        "default": false
+      },
+      {
+        "name": "dueLabel",
+        "type": "text",
+        "label": "Line under a page with a due date",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "{date} becomes the date from the page's due- tag.",
+        "default": "Read and acknowledge by {date}",
+        "validation": {
+          "required": false,
+          "maxLength": 80
+        },
+        "visibleWhen": {
+          "showDueDates": "true"
+        }
+      },
+      {
+        "name": "dueTagPrefix",
+        "type": "text",
+        "label": "Due date tag prefix",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "Change it if your tags use another word.",
+        "default": "due-",
+        "validation": {
+          "required": false,
+          "maxLength": 40
+        },
+        "visibleWhen": {
+          "showDueDates": "true"
+        }
+      },
+      {
+        "name": "acknowledgedLabel",
+        "type": "text",
+        "label": "Acknowledged label",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "Shown on a page the viewer has acknowledged.",
+        "default": "Acknowledged",
+        "validation": {
+          "required": false,
+          "maxLength": 80
+        }
+      },
+      {
+        "name": "emptyText",
+        "type": "text",
+        "label": "When nothing is waiting",
+        "groupName": "Display",
+        "groupKey": "display",
+        "description": "Shown when the list is empty.",
+        "default": "You have no items that require acknowledgment.",
+        "validation": {
+          "required": false,
+          "maxLength": 200
         }
       },
       {
@@ -60,6 +339,15 @@
           "required": false,
           "maxLength": 500
         }
+      },
+      {
+        "name": "debugMode",
+        "type": "boolean",
+        "label": "Diagnostic mode",
+        "groupName": "Advanced",
+        "groupKey": "advanced",
+        "description": "Shows a technical panel under the widget: settings as read, every API call and its result. Turn off before publishing.",
+        "default": false
       }
     ]
   },
@@ -88,6 +376,27 @@
           "isRequired": true
         }
       ]
+    },
+    {
+      "name": "taskOpened",
+      "metadata": [
+        {
+          "key": "task",
+          "description": "Task title",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "name": "taskDone",
+      "metadata": [
+        {
+          "key": "task",
+          "description": "Task title",
+          "isRequired": true
+        }
+      ]
     }
-  ]
+  ],
+  "allowMultiple": true
 }

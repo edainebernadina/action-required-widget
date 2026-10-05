@@ -1,0 +1,414 @@
+{
+ "caption": "Our Code of Conduct is how we work with each other, with customers and with partners. It is short on purpose. Read it once now, and come back to it whenever a decision feels unclear.\n\n\n    What w...",
+ "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+ "channelName": "Welcome to Keystone Dynamics",
+ "content": {
+  "article": {
+   "id": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+   "version": 0
+  },
+  "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/pexels-fauxels-3183153.jpg",
+  "createdAt": "2026-10-05T09:28:13.129Z",
+  "createdBy": "Ashley Madigan",
+  "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+  "id": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+  "nativeDuration": -1,
+  "tags": [],
+  "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/_thumbnail.jpg",
+  "type": "Image",
+  "updatedAt": "2026-10-05T09:28:13.129Z",
+  "updatedBy": "Ashley Madigan",
+  "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+  "format": "JPG",
+  "metadata": [
+   {
+    "key": "CONTENT_IMAGE_CODEC",
+    "value": "JPG"
+   },
+   {
+    "key": "CONTENT_IMAGE_BITDEPTH",
+    "value": "24"
+   },
+   {
+    "key": "content.metadata.elapsed",
+    "value": "00:00:02.6721315"
+   },
+   {
+    "key": "content.createdbyuserid",
+    "value": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+   },
+   {
+    "key": "content.updatedbyuserid",
+    "value": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+   },
+   {
+    "key": "content.createdby",
+    "value": "Ashley Madigan"
+   },
+   {
+    "key": "content.updatedby",
+    "value": "Ashley Madigan"
+   },
+   {
+    "key": "content.lastcreated",
+    "value": "2026-10-05T09:28:13Z"
+   },
+   {
+    "key": "content.lastupdated",
+    "value": "2026-10-05T09:28:13Z"
+   }
+  ],
+  "fileName": "pexels-fauxels-3183153.jpg",
+  "name": "pexels-fauxels-3183153",
+  "size": 188017
+ },
+ "createdAt": "2026-10-05T09:28:12.427Z",
+ "createdBy": "Ashley Madigan",
+ "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+ "id": "538997c0-74bb-497c-96bc-f26d89dd3aba",
+ "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+ "position": 0,
+ "title": "Code of Conduct",
+ "updatedAt": "2026-10-05T09:28:17.449Z",
+ "updatedBy": "Ashley.madigan+previewedaine@appspace.com",
+ "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+ "feeds": [
+  {
+   "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "name": "Welcome to Keystone Dynamics",
+   "status": "Published",
+   "statusReason": "Undefined",
+   "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+   "type": "Channel",
+   "subType": "Space",
+   "channel": {
+    "iconColor": "#0A5BEB",
+    "channelGroups": [],
+    "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+    "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+    "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+    "networkName": "Global",
+    "permission": "rwd",
+    "type": 6,
+    "subType": "Site",
+    "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+    "publishTo": [
+     {
+      "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+      "name": "Edaine Bernadina",
+      "targetType": 4,
+      "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdBy": "Edaine Bernadina",
+      "createdAt": "2026-10-05T09:27:20.993Z",
+      "updatedBy": "system",
+      "updatedAt": "2026-10-05T09:34:24.707Z",
+      "createdByUser": "00000000-0000-0000-0000-000000000000",
+      "updatedByUser": "00000000-0000-0000-0000-000000000000"
+     }
+    ],
+    "inheritedPublishTo": [],
+    "publishingRule": 2,
+    "metadata": [
+     {
+      "key": "published.users",
+      "value": "True"
+     },
+     {
+      "key": "published.devices",
+      "value": "False"
+     }
+    ],
+    "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+    "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+    "contentCount": 18,
+    "subscriptionMode": "Optional",
+    "membershipMode": "Undefined",
+    "banner": {
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+     "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+     "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+     "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+     "contentSize": 16737978,
+     "addedAt": "0001-01-01T00:00:00Z"
+    },
+    "additionalInfo": {
+     "audienceCount": 1,
+     "memberCount": 1,
+     "subscriberCount": 1,
+     "contentCount": 18
+    },
+    "privacyType": "Private",
+    "libraryIds": [],
+    "variations": [],
+    "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+    "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+    "name": "Welcome to Keystone Dynamics",
+    "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+    "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+    "createdBy": "Edaine Bernadina",
+    "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+    "createdAt": "2026-10-05T09:27:20.488Z",
+    "updatedBy": "Edaine Bernadina",
+    "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+    "updatedAt": "2026-10-05T09:41:22.329Z"
+   },
+   "updatedAt": "2026-10-05T09:41:22.329Z",
+   "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+   "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+   "metadata": [],
+   "additionalInfo": {
+    "audienceCount": 1,
+    "memberCount": 1,
+    "subscriberCount": 1
+   },
+   "privacyType": "Private",
+   "postingRules": [],
+   "statistics": {
+    "viewCount": 4,
+    "uniqueViewCount": 1,
+    "impressionCount": 0
+   },
+   "pendingApprovalActions": [],
+   "isMigrated": false
+  }
+ ],
+ "postType": "Page",
+ "attachments": [
+  {
+   "key": "bannerImageUrl",
+   "contentType": "Image",
+   "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/pexels-fauxels-3183153.jpg",
+   "contentName": "pexels-fauxels-3183153",
+   "contentId": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+   "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/_thumbnail.jpg",
+   "contentFileName": "pexels-fauxels-3183153.jpg",
+   "embedType": "Inline",
+   "contentSize": 188017,
+   "addedAt": "2026-10-05T09:28:18.154Z",
+   "isReferenced": false,
+   "referenceMetadata": {
+    "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+    "libraryName": "Common Library",
+    "folderPath": "Common Library",
+    "folderName": "Common Library",
+    "contentName": "pexels-fauxels-3183153",
+    "contentType": "Image",
+    "format": "JPG",
+    "createdAt": "2026-10-05T09:28:13.129Z",
+    "createdBy": "Ashley Madigan",
+    "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+    "updatedAt": "2026-10-05T09:28:13.129Z",
+    "updatedBy": "Ashley Madigan",
+    "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+   },
+   "hasAccess": true
+  }
+ ],
+ "authors": [
+  {
+   "userId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+   "username": "Ashley.madigan+previewedaine@appspace.com",
+   "displayName": "Ashley Madigan",
+   "email": "Ashley.madigan+previewedaine@appspace.com",
+   "type": "Public"
+  }
+ ],
+ "captionContent": {
+  "content": {
+   "blocks": [
+    {
+     "key": "vws6r",
+     "type": "unstyled",
+     "text": "Our Code of Conduct is how we work with each other, with customers and with partners. It is short on purpose. Read it once now, and come back to it whenever a decision feels unclear.",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "ed2ie",
+     "type": "header-two",
+     "text": "What we expect from everyone",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "c85tr",
+     "type": "unordered-list-item",
+     "text": "Treat colleagues, customers and partners with respect, in every channel and every language.",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "zz91y",
+     "type": "unordered-list-item",
+     "text": "Be honest about what you know, what you do not know and what went wrong.",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "m5hc6",
+     "type": "unordered-list-item",
+     "text": "Protect customer data as if it were your own.",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "9iq7s",
+     "type": "unordered-list-item",
+     "text": "Speak up when something does not feel right. Raising a concern in good faith is always safe.",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "qifds",
+     "type": "header-two",
+     "text": "Where to raise a concern",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "fob4d",
+     "type": "unstyled",
+     "text": "Talk to your manager first when you can. If that does not feel right, contact your People partner or use the confidential Speak Up line listed on the People Hub. Every report is reviewed by someone outside your reporting line.",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "0u1nv",
+     "type": "header-two",
+     "text": "Acknowledge this page",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    },
+    {
+     "key": "lzmpx",
+     "type": "unstyled",
+     "text": "Use the acknowledge button at the end of this page to confirm you have read the Code. It ticks this step off in your onboarding journey.",
+     "depth": 0,
+     "inlineStyleRanges": [],
+     "entityRanges": [],
+     "data": {}
+    }
+   ],
+   "entityMap": {},
+   "lastUpdatedAt": "2026-10-05T09:28:17.82Z"
+  },
+  "contentType": "DraftJS"
+ },
+ "permission": "rwd",
+ "cover": {
+  "contentType": "Image",
+  "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/pexels-fauxels-3183153.jpg",
+  "contentName": "pexels-fauxels-3183153",
+  "contentId": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+  "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/_thumbnail.jpg",
+  "contentFileName": "pexels-fauxels-3183153.jpg",
+  "contentSize": 188017,
+  "addedAt": "2026-10-05T09:28:18.183Z",
+  "addedBy": "Ashley Madigan",
+  "addedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+ },
+ "postSchedule": {},
+ "configuration": {
+  "reaction": {
+   "value": "Undefined",
+   "currentValue": "On",
+   "defaultValue": "On",
+   "isReadOnly": false
+  },
+  "share": {
+   "value": "Undefined",
+   "currentValue": "On",
+   "defaultValue": "On",
+   "isReadOnly": false
+  },
+  "comment": {
+   "value": "Undefined",
+   "currentValue": "On",
+   "defaultValue": "On",
+   "isReadOnly": false
+  },
+  "insight": {
+   "value": "Undefined",
+   "currentValue": "On",
+   "defaultValue": "On",
+   "isReadOnly": false
+  },
+  "narration": {
+   "value": "Undefined",
+   "currentValue": "On",
+   "defaultValue": "On",
+   "isReadOnly": false
+  },
+  "generativeAI": {
+   "value": "Undefined",
+   "currentValue": "On",
+   "defaultValue": "On",
+   "isReadOnly": false
+  },
+  "reportedPost": {
+   "postReportWorkflow": "FlagPost",
+   "postReportThreshold": 1
+  }
+ },
+ "tags": [
+  "day1",
+  "must-read"
+ ],
+ "postId": "538997c0-74bb-497c-96bc-f26d89dd3aba",
+ "reactionSummary": {
+  "counters": []
+ },
+ "commentSummary": {
+  "totalCount": 0
+ },
+ "contentSummary": {
+  "linkCount": 0,
+  "mentionCount": 0,
+  "summaryType": "Undefined",
+  "captionType": "System"
+ },
+ "status": "Published",
+ "statistics": {
+  "viewCount": 0,
+  "uniqueViewCount": 0,
+  "impressionCount": 0
+ },
+ "metadata": [],
+ "isPromoted": false,
+ "isSpotlighted": false,
+ "publishedAt": "2026-10-05T09:28:17.449Z",
+ "contentUpdatedAt": "2026-10-05T09:28:17.88Z",
+ "additionalInfo": {},
+ "isMarkedOffline": false,
+ "isBookmarked": false,
+ "source": "Page",
+ "revision": 0,
+ "acknowledgment": {
+  "isEnabled": true,
+  "message": "I have read and understood the Code of Conduct.",
+  "currentAcknowledgmentVersion": 4
+ },
+ "locationIds": [],
+ "userGroupIds": [],
+ "audienceIds": []
+}

@@ -1,0 +1,4077 @@
+{
+ "items": [
+  {
+   "caption": "By the end of your first 90 days you and your manager agree three goals for the next quarter.\n\n\n    Good goals are\n\n\n    \n        Specific enough that you will know when you have reached them.\n  ...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "f34fe5d1-df08-41e9-acce-a78a47a23d73",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f34fe5d1-df08-41e9-acce-a78a47a23d73/1791192634/pexels-fauxels-3183150-1.jpg",
+    "createdAt": "2026-10-05T09:30:39.192Z",
+    "createdBy": "Ashley Madigan",
+    "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+    "id": "f34fe5d1-df08-41e9-acce-a78a47a23d73",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f34fe5d1-df08-41e9-acce-a78a47a23d73/1791192634/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-fauxels-3183150-1.jpg",
+    "name": "pexels-fauxels-3183150-1",
+    "size": 287290
+   },
+   "createdAt": "2026-10-05T09:30:34.397Z",
+   "createdBy": "Ashley Madigan",
+   "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+   "id": "3fb9d530-833f-4fe2-b6b5-e619c6cb458e",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 1,
+   "title": "Set your goals with your manager",
+   "updatedAt": "2026-10-05T09:30:38.419Z",
+   "updatedBy": "Ashley.madigan+previewedaine@appspace.com",
+   "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f34fe5d1-df08-41e9-acce-a78a47a23d73/1791192634/pexels-fauxels-3183150-1.jpg",
+     "contentName": "pexels-fauxels-3183150-1",
+     "contentId": "f34fe5d1-df08-41e9-acce-a78a47a23d73",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f34fe5d1-df08-41e9-acce-a78a47a23d73/1791192634/_thumbnail.jpg",
+     "contentFileName": "pexels-fauxels-3183150-1.jpg",
+     "embedType": "Inline",
+     "contentSize": 287290,
+     "addedAt": "2026-10-05T09:30:39.158Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-fauxels-3183150-1",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:30:34.66Z",
+      "createdBy": "Ashley Madigan",
+      "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+      "updatedAt": "2026-10-05T09:30:34.66Z",
+      "updatedBy": "Ashley Madigan",
+      "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+     "username": "Ashley.madigan+previewedaine@appspace.com",
+     "displayName": "Ashley Madigan",
+     "email": "Ashley.madigan+previewedaine@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "7o68e",
+       "type": "unstyled",
+       "text": "By the end of your first 90 days you and your manager agree three goals for the next quarter.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "uys6x",
+       "type": "header-two",
+       "text": "Good goals are",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "xbjo8",
+       "type": "unordered-list-item",
+       "text": "Specific enough that you will know when you have reached them.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "jat9f",
+       "type": "unordered-list-item",
+       "text": "Linked to a team or company priority.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "dofnz",
+       "type": "unordered-list-item",
+       "text": "Realistic for the time you have, alongside learning the role.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:30:38.699Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f34fe5d1-df08-41e9-acce-a78a47a23d73/1791192634/pexels-fauxels-3183150-1.jpg",
+    "contentName": "pexels-fauxels-3183150-1",
+    "contentId": "f34fe5d1-df08-41e9-acce-a78a47a23d73",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f34fe5d1-df08-41e9-acce-a78a47a23d73/1791192634/_thumbnail.jpg",
+    "contentFileName": "pexels-fauxels-3183150-1.jpg",
+    "contentSize": 287290,
+    "addedAt": "2026-10-05T09:30:39.181Z",
+    "addedBy": "Ashley Madigan",
+    "addedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d90"
+   ],
+   "postId": "3fb9d530-833f-4fe2-b6b5-e619c6cb458e",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 1
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:30:38.419Z",
+   "contentUpdatedAt": "2026-10-05T09:30:38.898Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have agreed my goals with my manager.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "Nothing explains what we do better than hearing a customer describe their problem. In your second month, join at least one live customer call.\n\n\n    How to arrange it\n\n\n    \n        Ask your mana...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "660e6aa5-c4c4-4535-b896-238585e8bd53",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/660e6aa5-c4c4-4535-b896-238585e8bd53/1791192629/pexels-fauxels-3182787.jpg",
+    "createdAt": "2026-10-05T09:30:33.505Z",
+    "createdBy": "Matt Johnson",
+    "createdByUserId": "81ae19c1-b42e-4073-a487-5710529ae3a8",
+    "id": "660e6aa5-c4c4-4535-b896-238585e8bd53",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/660e6aa5-c4c4-4535-b896-238585e8bd53/1791192629/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-fauxels-3182787.jpg",
+    "name": "pexels-fauxels-3182787",
+    "size": 236219
+   },
+   "createdAt": "2026-10-05T09:30:29.117Z",
+   "createdBy": "Matt Johnson",
+   "createdByUserId": "81ae19c1-b42e-4073-a487-5710529ae3a8",
+   "id": "bc183944-9a2c-44df-aca2-6b1c0ca4fc72",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 2,
+   "title": "Shadow a customer call",
+   "updatedAt": "2026-10-05T09:30:32.787Z",
+   "updatedBy": "edaine.bernadina+preview1@appspace.com",
+   "updatedByUserId": "81ae19c1-b42e-4073-a487-5710529ae3a8",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/660e6aa5-c4c4-4535-b896-238585e8bd53/1791192629/pexels-fauxels-3182787.jpg",
+     "contentName": "pexels-fauxels-3182787",
+     "contentId": "660e6aa5-c4c4-4535-b896-238585e8bd53",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/660e6aa5-c4c4-4535-b896-238585e8bd53/1791192629/_thumbnail.jpg",
+     "contentFileName": "pexels-fauxels-3182787.jpg",
+     "embedType": "Inline",
+     "contentSize": 236219,
+     "addedAt": "2026-10-05T09:30:33.468Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-fauxels-3182787",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:30:29.383Z",
+      "createdBy": "Matt Johnson",
+      "createdByUserId": "81ae19c1-b42e-4073-a487-5710529ae3a8",
+      "updatedAt": "2026-10-05T09:30:29.383Z",
+      "updatedBy": "Matt Johnson",
+      "updatedByUserId": "81ae19c1-b42e-4073-a487-5710529ae3a8"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "81ae19c1-b42e-4073-a487-5710529ae3a8",
+     "username": "edaine.bernadina+preview1@appspace.com",
+     "displayName": "Matt Johnson",
+     "email": "edaine.bernadina+preview1@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "qjkh7",
+       "type": "unstyled",
+       "text": "Nothing explains what we do better than hearing a customer describe their problem. In your second month, join at least one live customer call.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "lf6p1",
+       "type": "header-two",
+       "text": "How to arrange it",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "26xax",
+       "type": "unordered-list-item",
+       "text": "Ask your manager which upcoming calls suit a listener.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "41gzt",
+       "type": "unordered-list-item",
+       "text": "Read the account notes beforehand.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "4igz1",
+       "type": "unordered-list-item",
+       "text": "Afterwards, write down one thing that surprised you and share it with your team.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:30:33.058Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/660e6aa5-c4c4-4535-b896-238585e8bd53/1791192629/pexels-fauxels-3182787.jpg",
+    "contentName": "pexels-fauxels-3182787",
+    "contentId": "660e6aa5-c4c4-4535-b896-238585e8bd53",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/660e6aa5-c4c4-4535-b896-238585e8bd53/1791192629/_thumbnail.jpg",
+    "contentFileName": "pexels-fauxels-3182787.jpg",
+    "contentSize": 236219,
+    "addedAt": "2026-10-05T09:30:33.493Z",
+    "addedBy": "Matt Johnson",
+    "addedByUserId": "81ae19c1-b42e-4073-a487-5710529ae3a8"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d60"
+   ],
+   "postId": "bc183944-9a2c-44df-aca2-6b1c0ca4fc72",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 1
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:30:32.787Z",
+   "contentUpdatedAt": "2026-10-05T09:30:33.098Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have shadowed a customer call.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "Desks are shared, so book the days you plan to be in. Sitting near your team makes the first weeks much easier.\n\n\n    How to book\n\n\n    \n        Open Places in the app and choose your office and ...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "e5179933-e6cc-42f5-9774-5d71936d5454",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/e5179933-e6cc-42f5-9774-5d71936d5454/1791192623/pexels-proxyclick-2451646.jpg",
+    "createdAt": "2026-10-05T09:30:27.77Z",
+    "createdBy": "Drew Johnsson",
+    "createdByUserId": "3968de69-ac04-4004-87e1-cf4ff87b3ea2",
+    "id": "e5179933-e6cc-42f5-9774-5d71936d5454",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/e5179933-e6cc-42f5-9774-5d71936d5454/1791192623/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-proxyclick-2451646.jpg",
+    "name": "pexels-proxyclick-2451646",
+    "size": 249452
+   },
+   "createdAt": "2026-10-05T09:30:23.528Z",
+   "createdBy": "Drew Johnsson",
+   "createdByUserId": "3968de69-ac04-4004-87e1-cf4ff87b3ea2",
+   "id": "35a33f37-db69-4e44-bce7-9d0bf898468a",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 3,
+   "title": "Book your desk for next week",
+   "updatedAt": "2026-10-05T09:30:27.283Z",
+   "updatedBy": "appspacedemo3@appspacedemo3.onmicrosoft.com",
+   "updatedByUserId": "3968de69-ac04-4004-87e1-cf4ff87b3ea2",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/e5179933-e6cc-42f5-9774-5d71936d5454/1791192623/pexels-proxyclick-2451646.jpg",
+     "contentName": "pexels-proxyclick-2451646",
+     "contentId": "e5179933-e6cc-42f5-9774-5d71936d5454",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/e5179933-e6cc-42f5-9774-5d71936d5454/1791192623/_thumbnail.jpg",
+     "contentFileName": "pexels-proxyclick-2451646.jpg",
+     "embedType": "Inline",
+     "contentSize": 249452,
+     "addedAt": "2026-10-05T09:30:27.735Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-proxyclick-2451646",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:30:23.832Z",
+      "createdBy": "Drew Johnsson",
+      "createdByUserId": "3968de69-ac04-4004-87e1-cf4ff87b3ea2",
+      "updatedAt": "2026-10-05T09:30:23.832Z",
+      "updatedBy": "Drew Johnsson",
+      "updatedByUserId": "3968de69-ac04-4004-87e1-cf4ff87b3ea2"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "3968de69-ac04-4004-87e1-cf4ff87b3ea2",
+     "username": "appspacedemo3@appspacedemo3.onmicrosoft.com",
+     "displayName": "Drew Johnsson",
+     "email": "appspacedemo3@appspacedemo3.onmicrosoft.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "tubaz",
+       "type": "unstyled",
+       "text": "Desks are shared, so book the days you plan to be in. Sitting near your team makes the first weeks much easier.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "uu6hh",
+       "type": "header-two",
+       "text": "How to book",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "tatpm",
+       "type": "unordered-list-item",
+       "text": "Open Places in the app and choose your office and floor.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "d961p",
+       "type": "unordered-list-item",
+       "text": "Look for your team's neighborhood and pick a free desk.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "nvl31",
+       "type": "unordered-list-item",
+       "text": "Check in when you arrive, or the desk is released at 10:00.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:30:27.55Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/e5179933-e6cc-42f5-9774-5d71936d5454/1791192623/pexels-proxyclick-2451646.jpg",
+    "contentName": "pexels-proxyclick-2451646",
+    "contentId": "e5179933-e6cc-42f5-9774-5d71936d5454",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/e5179933-e6cc-42f5-9774-5d71936d5454/1791192623/_thumbnail.jpg",
+    "contentFileName": "pexels-proxyclick-2451646.jpg",
+    "contentSize": 249452,
+    "addedAt": "2026-10-05T09:30:27.76Z",
+    "addedBy": "Drew Johnsson",
+    "addedByUserId": "3968de69-ac04-4004-87e1-cf4ff87b3ea2"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d30"
+   ],
+   "postId": "35a33f37-db69-4e44-bce7-9d0bf898468a",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 1
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:30:27.283Z",
+   "contentUpdatedAt": "2026-10-05T09:30:27.573Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have booked my desk.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "A 25-minute online course that every employee completes in their first month. It covers phishing, passwords and handling customer data.\n\n\n    How to take it\n\n\n    \n        Open the Learning short...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "2dc4c395-2b8e-4e40-98fb-d24ab559162a",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/2dc4c395-2b8e-4e40-98fb-d24ab559162a/1791192618/pexels-startup-stock-photos-212286.jpg",
+    "createdAt": "2026-10-05T09:30:22.05Z",
+    "createdBy": "Sarah Harper",
+    "createdByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+    "id": "2dc4c395-2b8e-4e40-98fb-d24ab559162a",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/2dc4c395-2b8e-4e40-98fb-d24ab559162a/1791192618/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-startup-stock-photos-212286.jpg",
+    "name": "pexels-startup-stock-photos-212286",
+    "size": 255671
+   },
+   "createdAt": "2026-10-05T09:30:17.898Z",
+   "createdBy": "Sarah Harper",
+   "createdByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+   "id": "a3bb9eae-f9ec-465e-8b8c-5a1d51517d7f",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 4,
+   "title": "Complete the security basics course",
+   "updatedAt": "2026-10-05T09:30:21.576Z",
+   "updatedBy": "sarah.harper+keystone@appspace.com",
+   "updatedByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/2dc4c395-2b8e-4e40-98fb-d24ab559162a/1791192618/pexels-startup-stock-photos-212286.jpg",
+     "contentName": "pexels-startup-stock-photos-212286",
+     "contentId": "2dc4c395-2b8e-4e40-98fb-d24ab559162a",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/2dc4c395-2b8e-4e40-98fb-d24ab559162a/1791192618/_thumbnail.jpg",
+     "contentFileName": "pexels-startup-stock-photos-212286.jpg",
+     "embedType": "Inline",
+     "contentSize": 255671,
+     "addedAt": "2026-10-05T09:30:22.011Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-startup-stock-photos-212286",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:30:18.141Z",
+      "createdBy": "Sarah Harper",
+      "createdByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+      "updatedAt": "2026-10-05T09:30:18.141Z",
+      "updatedBy": "Sarah Harper",
+      "updatedByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+     "username": "sarah.harper+keystone@appspace.com",
+     "displayName": "Sarah Harper",
+     "email": "sarah.harper+keystone@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "anwac",
+       "type": "unstyled",
+       "text": "A 25-minute online course that every employee completes in their first month. It covers phishing, passwords and handling customer data.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "pi0p1",
+       "type": "header-two",
+       "text": "How to take it",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "np9pq",
+       "type": "unordered-list-item",
+       "text": "Open the Learning shortcut on the onboarding site.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "zp83h",
+       "type": "unordered-list-item",
+       "text": "Search for Security basics and select Start.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "ah0rb",
+       "type": "unordered-list-item",
+       "text": "Score 80 percent or more on the short quiz at the end.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:30:21.811Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/2dc4c395-2b8e-4e40-98fb-d24ab559162a/1791192618/pexels-startup-stock-photos-212286.jpg",
+    "contentName": "pexels-startup-stock-photos-212286",
+    "contentId": "2dc4c395-2b8e-4e40-98fb-d24ab559162a",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/2dc4c395-2b8e-4e40-98fb-d24ab559162a/1791192618/_thumbnail.jpg",
+    "contentFileName": "pexels-startup-stock-photos-212286.jpg",
+    "contentSize": 255671,
+    "addedAt": "2026-10-05T09:30:22.038Z",
+    "addedBy": "Sarah Harper",
+    "addedByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d30"
+   ],
+   "postId": "a3bb9eae-f9ec-465e-8b8c-5a1d51517d7f",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 1
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:30:21.576Z",
+   "contentUpdatedAt": "2026-10-05T09:30:21.842Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have completed the security basics course.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "Your laptop arrives with everything installed. The first sign-in takes about twenty minutes.\n\n\n    Steps\n\n\n    \n        Sign in with the temporary password from your welcome email and choose a ne...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "7e886319-abe7-43cc-a8bc-65a6533f738b",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/7e886319-abe7-43cc-a8bc-65a6533f738b/1791192612/pexels-yankrukov-7693707.jpg",
+    "createdAt": "2026-10-05T09:30:16.871Z",
+    "createdBy": "Eva Smith",
+    "createdByUserId": "cb85f59f-a028-4834-a7e2-8153ea1968d8",
+    "id": "7e886319-abe7-43cc-a8bc-65a6533f738b",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/7e886319-abe7-43cc-a8bc-65a6533f738b/1791192612/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-yankrukov-7693707.jpg",
+    "name": "pexels-yankrukov-7693707",
+    "size": 289850
+   },
+   "createdAt": "2026-10-05T09:30:12.509Z",
+   "createdBy": "Eva Smith",
+   "createdByUserId": "cb85f59f-a028-4834-a7e2-8153ea1968d8",
+   "id": "7aa817f4-954a-4236-90d9-e5a31c4c7240",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 5,
+   "title": "Set up your laptop and sign in to your tools",
+   "updatedAt": "2026-10-05T09:30:16.314Z",
+   "updatedBy": "edaine.bernadina+preview5@appspace.com",
+   "updatedByUserId": "cb85f59f-a028-4834-a7e2-8153ea1968d8",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/7e886319-abe7-43cc-a8bc-65a6533f738b/1791192612/pexels-yankrukov-7693707.jpg",
+     "contentName": "pexels-yankrukov-7693707",
+     "contentId": "7e886319-abe7-43cc-a8bc-65a6533f738b",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/7e886319-abe7-43cc-a8bc-65a6533f738b/1791192612/_thumbnail.jpg",
+     "contentFileName": "pexels-yankrukov-7693707.jpg",
+     "embedType": "Inline",
+     "contentSize": 289850,
+     "addedAt": "2026-10-05T09:30:16.84Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-yankrukov-7693707",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:30:12.746Z",
+      "createdBy": "Eva Smith",
+      "createdByUserId": "cb85f59f-a028-4834-a7e2-8153ea1968d8",
+      "updatedAt": "2026-10-05T09:30:12.746Z",
+      "updatedBy": "Eva Smith",
+      "updatedByUserId": "cb85f59f-a028-4834-a7e2-8153ea1968d8"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "cb85f59f-a028-4834-a7e2-8153ea1968d8",
+     "username": "edaine.bernadina+preview5@appspace.com",
+     "displayName": "Eva Smith",
+     "email": "edaine.bernadina+preview5@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "9morj",
+       "type": "unstyled",
+       "text": "Your laptop arrives with everything installed. The first sign-in takes about twenty minutes.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "mwv67",
+       "type": "header-two",
+       "text": "Steps",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "1nttw",
+       "type": "unordered-list-item",
+       "text": "Sign in with the temporary password from your welcome email and choose a new one.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "mnu9c",
+       "type": "unordered-list-item",
+       "text": "Set up multi-factor sign-in on your phone.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "exvcu",
+       "type": "unordered-list-item",
+       "text": "Open email, calendar, Teams and the HR portal once each so they finish setting up.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "rhxes",
+       "type": "header-two",
+       "text": "Stuck?",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "qxw93",
+       "type": "unstyled",
+       "text": "Ask the Ask AI box on the onboarding site, or raise a ticket with IT help. Day-one tickets are answered first.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:30:16.605Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/7e886319-abe7-43cc-a8bc-65a6533f738b/1791192612/pexels-yankrukov-7693707.jpg",
+    "contentName": "pexels-yankrukov-7693707",
+    "contentId": "7e886319-abe7-43cc-a8bc-65a6533f738b",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/7e886319-abe7-43cc-a8bc-65a6533f738b/1791192612/_thumbnail.jpg",
+    "contentFileName": "pexels-yankrukov-7693707.jpg",
+    "contentSize": 289850,
+    "addedAt": "2026-10-05T09:30:16.862Z",
+    "addedBy": "Eva Smith",
+    "addedByUserId": "cb85f59f-a028-4834-a7e2-8153ea1968d8"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "day1"
+   ],
+   "postId": "7aa817f4-954a-4236-90d9-e5a31c4c7240",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "Undefined"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 1
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:30:16.314Z",
+   "contentUpdatedAt": "2026-10-05T09:30:16.671Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "My laptop and tools are set up.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "Every new joiner has a buddy: a colleague from a neighboring team who has been here at least a year. Your buddy is not your manager. They are the person to ask the questions you think are too sma...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "82770ec6-8408-44cd-a5d5-b5e78cad6468",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/82770ec6-8408-44cd-a5d5-b5e78cad6468/1791192606/pexels-fauxels-3183197.jpg",
+    "createdAt": "2026-10-05T09:30:11.132Z",
+    "createdBy": "Ashley Madigan",
+    "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+    "id": "82770ec6-8408-44cd-a5d5-b5e78cad6468",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/82770ec6-8408-44cd-a5d5-b5e78cad6468/1791192606/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-fauxels-3183197.jpg",
+    "name": "pexels-fauxels-3183197",
+    "size": 265461
+   },
+   "createdAt": "2026-10-05T09:30:06.382Z",
+   "createdBy": "Ashley Madigan",
+   "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+   "id": "b6c0d38a-4f51-4734-8ba9-270f455e57ac",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 6,
+   "title": "Meet your buddy",
+   "updatedAt": "2026-10-05T09:30:10.547Z",
+   "updatedBy": "Ashley.madigan+previewedaine@appspace.com",
+   "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/82770ec6-8408-44cd-a5d5-b5e78cad6468/1791192606/pexels-fauxels-3183197.jpg",
+     "contentName": "pexels-fauxels-3183197",
+     "contentId": "82770ec6-8408-44cd-a5d5-b5e78cad6468",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/82770ec6-8408-44cd-a5d5-b5e78cad6468/1791192606/_thumbnail.jpg",
+     "contentFileName": "pexels-fauxels-3183197.jpg",
+     "embedType": "Inline",
+     "contentSize": 265461,
+     "addedAt": "2026-10-05T09:30:11.099Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-fauxels-3183197",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:30:06.648Z",
+      "createdBy": "Ashley Madigan",
+      "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+      "updatedAt": "2026-10-05T09:30:06.648Z",
+      "updatedBy": "Ashley Madigan",
+      "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+     "username": "Ashley.madigan+previewedaine@appspace.com",
+     "displayName": "Ashley Madigan",
+     "email": "Ashley.madigan+previewedaine@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "c52f8",
+       "type": "unstyled",
+       "text": "Every new joiner has a buddy: a colleague from a neighboring team who has been here at least a year. Your buddy is not your manager. They are the person to ask the questions you think are too small to ask.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "b37ne",
+       "type": "header-two",
+       "text": "Your first conversation",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "fao5p",
+       "type": "unordered-list-item",
+       "text": "Book thirty minutes in your first two days, over coffee if you are in the office.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "k0k4z",
+       "type": "unordered-list-item",
+       "text": "Ask how they plan their week and which meetings matter.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "cvt0l",
+       "type": "unordered-list-item",
+       "text": "Agree when you will meet again. Most pairs meet weekly for the first month.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:30:10.861Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/82770ec6-8408-44cd-a5d5-b5e78cad6468/1791192606/pexels-fauxels-3183197.jpg",
+    "contentName": "pexels-fauxels-3183197",
+    "contentId": "82770ec6-8408-44cd-a5d5-b5e78cad6468",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/82770ec6-8408-44cd-a5d5-b5e78cad6468/1791192606/_thumbnail.jpg",
+    "contentFileName": "pexels-fauxels-3183197.jpg",
+    "contentSize": 265461,
+    "addedAt": "2026-10-05T09:30:11.122Z",
+    "addedBy": "Ashley Madigan",
+    "addedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "day1"
+   ],
+   "postId": "b6c0d38a-4f51-4734-8ba9-270f455e57ac",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 1
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:30:10.547Z",
+   "contentUpdatedAt": "2026-10-05T09:30:10.879Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have met my buddy.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "Your laptop and building badge are ready at the IT desk on Floor 1 from 09:00 on your first day.\n\n\n    Bring with you\n\n\n    \n        A photo ID, so we can activate your badge.\n    \n    \n        Y...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "50f18fd9-1d1d-4f1f-a096-431e69a7e985",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/50f18fd9-1d1d-4f1f-a096-431e69a7e985/1791192601/pexels-fauxels-3183170-1.jpg",
+    "createdAt": "2026-10-05T09:30:05.301Z",
+    "createdBy": "Krunal Patel",
+    "createdByUserId": "949e3751-eada-46f7-9bc5-80ed65d6054e",
+    "id": "50f18fd9-1d1d-4f1f-a096-431e69a7e985",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/50f18fd9-1d1d-4f1f-a096-431e69a7e985/1791192601/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-fauxels-3183170-1.jpg",
+    "name": "pexels-fauxels-3183170-1",
+    "size": 190800
+   },
+   "createdAt": "2026-10-05T09:30:01.006Z",
+   "createdBy": "Krunal Patel",
+   "createdByUserId": "949e3751-eada-46f7-9bc5-80ed65d6054e",
+   "id": "cb6d1f5c-b17a-4a0b-8c23-c52cd0774a94",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 7,
+   "title": "Collect your laptop and badge",
+   "updatedAt": "2026-10-05T09:30:04.695Z",
+   "updatedBy": "krunal.patel+thecore@appspace.com",
+   "updatedByUserId": "949e3751-eada-46f7-9bc5-80ed65d6054e",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/50f18fd9-1d1d-4f1f-a096-431e69a7e985/1791192601/pexels-fauxels-3183170-1.jpg",
+     "contentName": "pexels-fauxels-3183170-1",
+     "contentId": "50f18fd9-1d1d-4f1f-a096-431e69a7e985",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/50f18fd9-1d1d-4f1f-a096-431e69a7e985/1791192601/_thumbnail.jpg",
+     "contentFileName": "pexels-fauxels-3183170-1.jpg",
+     "embedType": "Inline",
+     "contentSize": 190800,
+     "addedAt": "2026-10-05T09:30:05.263Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-fauxels-3183170-1",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:30:01.352Z",
+      "createdBy": "Krunal Patel",
+      "createdByUserId": "949e3751-eada-46f7-9bc5-80ed65d6054e",
+      "updatedAt": "2026-10-05T09:30:01.352Z",
+      "updatedBy": "Krunal Patel",
+      "updatedByUserId": "949e3751-eada-46f7-9bc5-80ed65d6054e"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "949e3751-eada-46f7-9bc5-80ed65d6054e",
+     "username": "krunal.patel+thecore@appspace.com",
+     "displayName": "Krunal Patel",
+     "email": "krunal.patel+thecore@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "7i26p",
+       "type": "unstyled",
+       "text": "Your laptop and building badge are ready at the IT desk on Floor 1 from 09:00 on your first day.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "s0zaz",
+       "type": "header-two",
+       "text": "Bring with you",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "7g47u",
+       "type": "unordered-list-item",
+       "text": "A photo ID, so we can activate your badge.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "m9tkz",
+       "type": "unordered-list-item",
+       "text": "Your personal email address, for the first sign-in link.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "egdgj",
+       "type": "header-two",
+       "text": "Working remotely on day one?",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "r752n",
+       "type": "unstyled",
+       "text": "Tell IT before your start date and we will courier your laptop to arrive the day before.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:30:05.028Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/50f18fd9-1d1d-4f1f-a096-431e69a7e985/1791192601/pexels-fauxels-3183170-1.jpg",
+    "contentName": "pexels-fauxels-3183170-1",
+    "contentId": "50f18fd9-1d1d-4f1f-a096-431e69a7e985",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/50f18fd9-1d1d-4f1f-a096-431e69a7e985/1791192601/_thumbnail.jpg",
+    "contentFileName": "pexels-fauxels-3183170-1.jpg",
+    "contentSize": 190800,
+    "addedAt": "2026-10-05T09:30:05.291Z",
+    "addedBy": "Krunal Patel",
+    "addedByUserId": "949e3751-eada-46f7-9bc5-80ed65d6054e"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "day1"
+   ],
+   "postId": "cb6d1f5c-b17a-4a0b-8c23-c52cd0774a94",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 0
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:30:04.695Z",
+   "contentUpdatedAt": "2026-10-05T09:30:05.077Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have collected my laptop and badge.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "A few minutes now saves confusion in an emergency. Read this before your first full week in the office.\n\n\n    In an emergency\n\n\n    \n        Fire exits are marked in green on every floor. Assembl...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "f0091ea3-df0e-4f4d-8e4d-c649d3dc7334",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f0091ea3-df0e-4f4d-8e4d-c649d3dc7334/1791192595/pexels-proxyclick-2451646.jpg",
+    "createdAt": "2026-10-05T09:29:59.59Z",
+    "createdBy": "Klaus Docker",
+    "createdByUserId": "0681b54a-4b99-4166-9af9-4e9c62d584b8",
+    "id": "f0091ea3-df0e-4f4d-8e4d-c649d3dc7334",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f0091ea3-df0e-4f4d-8e4d-c649d3dc7334/1791192595/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-proxyclick-2451646.jpg",
+    "name": "pexels-proxyclick-2451646",
+    "size": 249452
+   },
+   "createdAt": "2026-10-05T09:29:55.362Z",
+   "createdBy": "Klaus Docker",
+   "createdByUserId": "0681b54a-4b99-4166-9af9-4e9c62d584b8",
+   "id": "6b4f8c8a-ef72-4df1-8918-0f2014d86034",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 8,
+   "title": "Health and safety at the office",
+   "updatedAt": "2026-10-05T09:29:59.029Z",
+   "updatedBy": "klaus.docker@appspacedemo3.onmicrosoft.com",
+   "updatedByUserId": "0681b54a-4b99-4166-9af9-4e9c62d584b8",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f0091ea3-df0e-4f4d-8e4d-c649d3dc7334/1791192595/pexels-proxyclick-2451646.jpg",
+     "contentName": "pexels-proxyclick-2451646",
+     "contentId": "f0091ea3-df0e-4f4d-8e4d-c649d3dc7334",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f0091ea3-df0e-4f4d-8e4d-c649d3dc7334/1791192595/_thumbnail.jpg",
+     "contentFileName": "pexels-proxyclick-2451646.jpg",
+     "embedType": "Inline",
+     "contentSize": 249452,
+     "addedAt": "2026-10-05T09:29:59.554Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-proxyclick-2451646",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:29:55.608Z",
+      "createdBy": "Klaus Docker",
+      "createdByUserId": "0681b54a-4b99-4166-9af9-4e9c62d584b8",
+      "updatedAt": "2026-10-05T09:29:55.608Z",
+      "updatedBy": "Klaus Docker",
+      "updatedByUserId": "0681b54a-4b99-4166-9af9-4e9c62d584b8"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "0681b54a-4b99-4166-9af9-4e9c62d584b8",
+     "username": "klaus.docker@appspacedemo3.onmicrosoft.com",
+     "displayName": "Klaus Docker",
+     "email": "klaus.docker@appspacedemo3.onmicrosoft.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "izsev",
+       "type": "unstyled",
+       "text": "A few minutes now saves confusion in an emergency. Read this before your first full week in the office.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "bllxo",
+       "type": "header-two",
+       "text": "In an emergency",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "jsgzl",
+       "type": "unordered-list-item",
+       "text": "Fire exits are marked in green on every floor. Assembly point: the square in front of the main entrance.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "7rqvx",
+       "type": "unordered-list-item",
+       "text": "First aiders are listed at reception and on every kitchen noticeboard.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "gihvz",
+       "type": "unordered-list-item",
+       "text": "Call reception on extension 100 for anything urgent.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "vmfry",
+       "type": "header-two",
+       "text": "Your workstation",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "3fs4v",
+       "type": "unstyled",
+       "text": "Adjust your chair and screen height before you start. Ask facilities for a footrest, a second screen or a standing desk if you need one.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:29:59.281Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f0091ea3-df0e-4f4d-8e4d-c649d3dc7334/1791192595/pexels-proxyclick-2451646.jpg",
+    "contentName": "pexels-proxyclick-2451646",
+    "contentId": "f0091ea3-df0e-4f4d-8e4d-c649d3dc7334",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f0091ea3-df0e-4f4d-8e4d-c649d3dc7334/1791192595/_thumbnail.jpg",
+    "contentFileName": "pexels-proxyclick-2451646.jpg",
+    "contentSize": 249452,
+    "addedAt": "2026-10-05T09:29:59.581Z",
+    "addedBy": "Klaus Docker",
+    "addedByUserId": "0681b54a-4b99-4166-9af9-4e9c62d584b8"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d30",
+    "must-read"
+   ],
+   "postId": "6b4f8c8a-ef72-4df1-8918-0f2014d86034",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 0
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:29:59.029Z",
+   "contentUpdatedAt": "2026-10-05T09:29:59.311Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have read and understood this guidance.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "If you spend money on behalf of Keystone Dynamics, you get it back quickly. Here is what you can claim and how.\n\n\n    What you can claim\n\n\n    \n        Travel booked through the company travel to...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "46e7153c-2b43-4fbf-addf-5120c3a7a8a0",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/46e7153c-2b43-4fbf-addf-5120c3a7a8a0/1791192589/pexels-fauxels-3183150-1.jpg",
+    "createdAt": "2026-10-05T09:29:54.043Z",
+    "createdBy": "Kelly Weadock",
+    "createdByUserId": "aa6adde4-7b94-465c-84af-b58df00daf14",
+    "id": "46e7153c-2b43-4fbf-addf-5120c3a7a8a0",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/46e7153c-2b43-4fbf-addf-5120c3a7a8a0/1791192589/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-fauxels-3183150-1.jpg",
+    "name": "pexels-fauxels-3183150-1",
+    "size": 287290
+   },
+   "createdAt": "2026-10-05T09:29:49.444Z",
+   "createdBy": "Kelly Weadock",
+   "createdByUserId": "aa6adde4-7b94-465c-84af-b58df00daf14",
+   "id": "834a4f42-19c6-4f50-9fa8-f447cf385087",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 9,
+   "title": "Expenses policy",
+   "updatedAt": "2026-10-05T09:29:53.482Z",
+   "updatedBy": "kelly.weadock@appspacedemo3.onmicrosoft.com",
+   "updatedByUserId": "aa6adde4-7b94-465c-84af-b58df00daf14",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/46e7153c-2b43-4fbf-addf-5120c3a7a8a0/1791192589/pexels-fauxels-3183150-1.jpg",
+     "contentName": "pexels-fauxels-3183150-1",
+     "contentId": "46e7153c-2b43-4fbf-addf-5120c3a7a8a0",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/46e7153c-2b43-4fbf-addf-5120c3a7a8a0/1791192589/_thumbnail.jpg",
+     "contentFileName": "pexels-fauxels-3183150-1.jpg",
+     "embedType": "Inline",
+     "contentSize": 287290,
+     "addedAt": "2026-10-05T09:29:54.002Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-fauxels-3183150-1",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:29:49.696Z",
+      "createdBy": "Kelly Weadock",
+      "createdByUserId": "aa6adde4-7b94-465c-84af-b58df00daf14",
+      "updatedAt": "2026-10-05T09:29:49.696Z",
+      "updatedBy": "Kelly Weadock",
+      "updatedByUserId": "aa6adde4-7b94-465c-84af-b58df00daf14"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "aa6adde4-7b94-465c-84af-b58df00daf14",
+     "username": "kelly.weadock@appspacedemo3.onmicrosoft.com",
+     "displayName": "Kelly Weadock",
+     "email": "kelly.weadock@appspacedemo3.onmicrosoft.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "05onb",
+       "type": "unstyled",
+       "text": "If you spend money on behalf of Keystone Dynamics, you get it back quickly. Here is what you can claim and how.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "5wsak",
+       "type": "header-two",
+       "text": "What you can claim",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "pg4mz",
+       "type": "unordered-list-item",
+       "text": "Travel booked through the company travel tool.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "1i8u9",
+       "type": "unordered-list-item",
+       "text": "Meals while travelling, up to the daily allowance for that country.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "2vp1u",
+       "type": "unordered-list-item",
+       "text": "Equipment approved in advance by your manager.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "qfqo0",
+       "type": "header-two",
+       "text": "How to claim",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "ab6o2",
+       "type": "unstyled",
+       "text": "Photograph the receipt and submit it in the expenses app within 30 days. Claims approved by the 20th are paid with that month's salary.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:29:53.771Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/46e7153c-2b43-4fbf-addf-5120c3a7a8a0/1791192589/pexels-fauxels-3183150-1.jpg",
+    "contentName": "pexels-fauxels-3183150-1",
+    "contentId": "46e7153c-2b43-4fbf-addf-5120c3a7a8a0",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/46e7153c-2b43-4fbf-addf-5120c3a7a8a0/1791192589/_thumbnail.jpg",
+    "contentFileName": "pexels-fauxels-3183150-1.jpg",
+    "contentSize": 287290,
+    "addedAt": "2026-10-05T09:29:54.031Z",
+    "addedBy": "Kelly Weadock",
+    "addedByUserId": "aa6adde4-7b94-465c-84af-b58df00daf14"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d30",
+    "must-read"
+   ],
+   "postId": "834a4f42-19c6-4f50-9fa8-f447cf385087",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 0
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:29:53.482Z",
+   "contentUpdatedAt": "2026-10-05T09:29:53.803Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have read and understood this policy.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "We work hybrid. Teams agree their own rhythm, with at least two shared office days a week so people can meet in person.\n\n\n    How it works\n\n\n    \n        Core hours are 10:00 to 16:00 in your loc...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "c0800d0e-40c3-48dc-8c51-cccdf365638a",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/c0800d0e-40c3-48dc-8c51-cccdf365638a/1791192583/pexels-fauxels-3184430.jpg",
+    "createdAt": "2026-10-05T09:29:47.898Z",
+    "createdBy": "Gloria Rodriguez",
+    "createdByUserId": "de83e696-ee9b-4a9b-9a50-6eafc5895833",
+    "id": "c0800d0e-40c3-48dc-8c51-cccdf365638a",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/c0800d0e-40c3-48dc-8c51-cccdf365638a/1791192583/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-fauxels-3184430.jpg",
+    "name": "pexels-fauxels-3184430",
+    "size": 192101
+   },
+   "createdAt": "2026-10-05T09:29:43.207Z",
+   "createdBy": "Gloria Rodriguez",
+   "createdByUserId": "de83e696-ee9b-4a9b-9a50-6eafc5895833",
+   "id": "838bc8b8-6b79-479f-ac9c-6017846a62f1",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 10,
+   "title": "Working hours and flexibility",
+   "updatedAt": "2026-10-05T09:29:47.285Z",
+   "updatedBy": "edaine.bernadina+preview2@appspace.com",
+   "updatedByUserId": "de83e696-ee9b-4a9b-9a50-6eafc5895833",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/c0800d0e-40c3-48dc-8c51-cccdf365638a/1791192583/pexels-fauxels-3184430.jpg",
+     "contentName": "pexels-fauxels-3184430",
+     "contentId": "c0800d0e-40c3-48dc-8c51-cccdf365638a",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/c0800d0e-40c3-48dc-8c51-cccdf365638a/1791192583/_thumbnail.jpg",
+     "contentFileName": "pexels-fauxels-3184430.jpg",
+     "embedType": "Inline",
+     "contentSize": 192101,
+     "addedAt": "2026-10-05T09:29:47.852Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-fauxels-3184430",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:29:43.598Z",
+      "createdBy": "Gloria Rodriguez",
+      "createdByUserId": "de83e696-ee9b-4a9b-9a50-6eafc5895833",
+      "updatedAt": "2026-10-05T09:29:43.598Z",
+      "updatedBy": "Gloria Rodriguez",
+      "updatedByUserId": "de83e696-ee9b-4a9b-9a50-6eafc5895833"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "de83e696-ee9b-4a9b-9a50-6eafc5895833",
+     "username": "edaine.bernadina+preview2@appspace.com",
+     "displayName": "Gloria Rodriguez",
+     "email": "edaine.bernadina+preview2@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "morij",
+       "type": "unstyled",
+       "text": "We work hybrid. Teams agree their own rhythm, with at least two shared office days a week so people can meet in person.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "5ki4v",
+       "type": "header-two",
+       "text": "How it works",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "2nkim",
+       "type": "unordered-list-item",
+       "text": "Core hours are 10:00 to 16:00 in your local time, so meetings fit everyone.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "400mi",
+       "type": "unordered-list-item",
+       "text": "Agree your office days with your manager and book a desk in advance.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "pi7e6",
+       "type": "unordered-list-item",
+       "text": "Flexible start and finish times are fine as long as your team knows how to reach you.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "hmlkj",
+       "type": "header-two",
+       "text": "Time off",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "x21la",
+       "type": "unstyled",
+       "text": "Request leave in the HR portal at least two weeks ahead for anything longer than three days. Your manager approves it there.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:29:47.553Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/c0800d0e-40c3-48dc-8c51-cccdf365638a/1791192583/pexels-fauxels-3184430.jpg",
+    "contentName": "pexels-fauxels-3184430",
+    "contentId": "c0800d0e-40c3-48dc-8c51-cccdf365638a",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/c0800d0e-40c3-48dc-8c51-cccdf365638a/1791192583/_thumbnail.jpg",
+    "contentFileName": "pexels-fauxels-3184430.jpg",
+    "contentSize": 192101,
+    "addedAt": "2026-10-05T09:29:47.874Z",
+    "addedBy": "Gloria Rodriguez",
+    "addedByUserId": "de83e696-ee9b-4a9b-9a50-6eafc5895833"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d30",
+    "must-read"
+   ],
+   "postId": "838bc8b8-6b79-479f-ac9c-6017846a62f1",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 0
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:29:47.285Z",
+   "contentUpdatedAt": "2026-10-05T09:29:47.614Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have read and understood this policy.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "Keeping customer and company data safe is part of every role here, not only IT's. This page covers the rules that matter most in your first weeks.\n\n\n    The essentials\n\n\n    \n        Lock your sc...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "f9837f8c-04be-4d0e-b779-4809cb42170e",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f9837f8c-04be-4d0e-b779-4809cb42170e/1791192577/pexels-startup-stock-photos-212286.jpg",
+    "createdAt": "2026-10-05T09:29:41.676Z",
+    "createdBy": "Sarah Harper",
+    "createdByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+    "id": "f9837f8c-04be-4d0e-b779-4809cb42170e",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f9837f8c-04be-4d0e-b779-4809cb42170e/1791192577/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-startup-stock-photos-212286.jpg",
+    "name": "pexels-startup-stock-photos-212286",
+    "size": 255671
+   },
+   "createdAt": "2026-10-05T09:29:36.713Z",
+   "createdBy": "Sarah Harper",
+   "createdByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+   "id": "e955346e-9391-4e3b-8275-d316e2074f58",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 11,
+   "title": "Information security policy",
+   "updatedAt": "2026-10-05T09:29:41.153Z",
+   "updatedBy": "sarah.harper+keystone@appspace.com",
+   "updatedByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f9837f8c-04be-4d0e-b779-4809cb42170e/1791192577/pexels-startup-stock-photos-212286.jpg",
+     "contentName": "pexels-startup-stock-photos-212286",
+     "contentId": "f9837f8c-04be-4d0e-b779-4809cb42170e",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f9837f8c-04be-4d0e-b779-4809cb42170e/1791192577/_thumbnail.jpg",
+     "contentFileName": "pexels-startup-stock-photos-212286.jpg",
+     "embedType": "Inline",
+     "contentSize": 255671,
+     "addedAt": "2026-10-05T09:29:41.644Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-startup-stock-photos-212286",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:29:37.277Z",
+      "createdBy": "Sarah Harper",
+      "createdByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+      "updatedAt": "2026-10-05T09:29:37.277Z",
+      "updatedBy": "Sarah Harper",
+      "updatedByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738",
+     "username": "sarah.harper+keystone@appspace.com",
+     "displayName": "Sarah Harper",
+     "email": "sarah.harper+keystone@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "0rhea",
+       "type": "unstyled",
+       "text": "Keeping customer and company data safe is part of every role here, not only IT's. This page covers the rules that matter most in your first weeks.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "oc4vc",
+       "type": "header-two",
+       "text": "The essentials",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "hxvyw",
+       "type": "unordered-list-item",
+       "text": "Lock your screen whenever you step away from your desk.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "s5alp",
+       "type": "unordered-list-item",
+       "text": "Use the company password manager and turn on multi-factor sign-in for every tool.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "u722f",
+       "type": "unordered-list-item",
+       "text": "Share files through approved tools only, never through personal email or storage.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "hgylv",
+       "type": "unordered-list-item",
+       "text": "Report a lost device or a suspicious message to IT the same day.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "4sewx",
+       "type": "header-two",
+       "text": "Why it matters",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "xgtwe",
+       "type": "unstyled",
+       "text": "Most incidents start with one ordinary click. A fast report turns a serious incident into a small one, so you will never be blamed for reporting quickly.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:29:41.417Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f9837f8c-04be-4d0e-b779-4809cb42170e/1791192577/pexels-startup-stock-photos-212286.jpg",
+    "contentName": "pexels-startup-stock-photos-212286",
+    "contentId": "f9837f8c-04be-4d0e-b779-4809cb42170e",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/f9837f8c-04be-4d0e-b779-4809cb42170e/1791192577/_thumbnail.jpg",
+    "contentFileName": "pexels-startup-stock-photos-212286.jpg",
+    "contentSize": 255671,
+    "addedAt": "2026-10-05T09:29:41.667Z",
+    "addedBy": "Sarah Harper",
+    "addedByUserId": "a10230a0-1f5b-43e3-81ef-4072ba0fb738"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "d30",
+    "must-read"
+   ],
+   "postId": "e955346e-9391-4e3b-8275-d316e2074f58",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 0
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:29:41.153Z",
+   "contentUpdatedAt": "2026-10-05T09:29:41.473Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have read and understood this policy.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  },
+  {
+   "caption": "Our Code of Conduct is how we work with each other, with customers and with partners. It is short on purpose. Read it once now, and come back to it whenever a decision feels unclear.\n\n\n    What w...",
+   "channelId": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+   "channelName": "Welcome to Keystone Dynamics",
+   "content": {
+    "article": {
+     "id": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+     "version": 0
+    },
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/pexels-fauxels-3183153.jpg",
+    "createdAt": "2026-10-05T09:28:18.194Z",
+    "createdBy": "Ashley Madigan",
+    "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+    "id": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+    "thumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/_thumbnail.jpg",
+    "type": "Image",
+    "updatedAt": "0001-01-01T00:00:00",
+    "fileName": "pexels-fauxels-3183153.jpg",
+    "name": "pexels-fauxels-3183153",
+    "size": 188017
+   },
+   "createdAt": "2026-10-05T09:28:12.427Z",
+   "createdBy": "Ashley Madigan",
+   "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+   "id": "538997c0-74bb-497c-96bc-f26d89dd3aba",
+   "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+   "position": 12,
+   "title": "Code of Conduct",
+   "updatedAt": "2026-10-05T09:28:17.449Z",
+   "updatedBy": "Ashley.madigan+previewedaine@appspace.com",
+   "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+   "feeds": [
+    {
+     "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+     "name": "Welcome to Keystone Dynamics",
+     "status": "Published",
+     "statusReason": "Undefined",
+     "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+     "type": "Channel",
+     "subType": "Space",
+     "channel": {
+      "iconColor": "#0A5BEB",
+      "channelGroups": [],
+      "thumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "customThumbnailResourceId": "00000000-0000-0000-0000-000000000000",
+      "networkId": "ab042338-fc15-461e-9004-a690870c70ea",
+      "networkName": "Global",
+      "permission": "rwd",
+      "type": 6,
+      "subType": "Site",
+      "subTypeId": "e9074a82-0adc-56b6-bedf-4823a22833ab",
+      "publishTo": [
+       {
+        "id": "837abd9f-e8c0-4ec9-a89b-983b5f905f20",
+        "name": "Edaine Bernadina",
+        "targetType": 4,
+        "targetId": "91c93796-0c64-48a4-8535-99da6e031cba",
+        "createdBy": "Edaine Bernadina",
+        "createdAt": "2026-10-05T09:27:20.993Z",
+        "updatedBy": "system",
+        "updatedAt": "2026-10-05T09:34:24.707Z",
+        "createdByUser": "00000000-0000-0000-0000-000000000000",
+        "updatedByUser": "00000000-0000-0000-0000-000000000000"
+       }
+      ],
+      "inheritedPublishTo": [],
+      "publishingRule": 2,
+      "metadata": [
+       {
+        "key": "published.users",
+        "value": "True"
+       },
+       {
+        "key": "published.devices",
+        "value": "False"
+       }
+      ],
+      "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+      "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+      "contentCount": 18,
+      "subscriptionMode": "Optional",
+      "membershipMode": "Undefined",
+      "banner": {
+       "contentType": "Image",
+       "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC",
+       "contentId": "514af61d-be88-4050-87fe-5eae6120ee8a",
+       "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/514af61d-be88-4050-87fe-5eae6120ee8a/1787180390/_thumbnail.png",
+       "contentFileName": "business-colleagues-laughing-and-working-while-loo-MQ5NASC.png",
+       "contentSize": 16737978,
+       "addedAt": "0001-01-01T00:00:00Z"
+      },
+      "additionalInfo": {
+       "audienceCount": 1,
+       "memberCount": 1,
+       "subscriberCount": 1,
+       "contentCount": 18
+      },
+      "privacyType": "Private",
+      "libraryIds": [],
+      "variations": [],
+      "id": "8aebbd86-a771-4a48-ab4a-97a636d93738",
+      "accountId": "cb119359-a3bc-4fde-be53-ad3cfdb85237",
+      "name": "Welcome to Keystone Dynamics",
+      "caption": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "description": "Everything for your first 90 days in one place: what to do, who to meet and where to find things.",
+      "createdBy": "Edaine Bernadina",
+      "createdByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "createdAt": "2026-10-05T09:27:20.488Z",
+      "updatedBy": "Edaine Bernadina",
+      "updatedByUserId": "91c93796-0c64-48a4-8535-99da6e031cba",
+      "updatedAt": "2026-10-05T09:41:22.329Z"
+     },
+     "updatedAt": "2026-10-05T09:41:22.329Z",
+     "contentLastPublishedAt": "2026-10-05T09:30:56.723Z",
+     "contentLastUpdatedAt": "2026-10-05T09:30:39.085Z",
+     "metadata": [],
+     "additionalInfo": {
+      "audienceCount": 1,
+      "memberCount": 1,
+      "subscriberCount": 1
+     },
+     "privacyType": "Private",
+     "postingRules": [],
+     "statistics": {
+      "viewCount": 4,
+      "uniqueViewCount": 1,
+      "impressionCount": 0
+     },
+     "pendingApprovalActions": [],
+     "isMigrated": false
+    }
+   ],
+   "postType": "Page",
+   "attachments": [
+    {
+     "key": "bannerImageUrl",
+     "contentType": "Image",
+     "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/pexels-fauxels-3183153.jpg",
+     "contentName": "pexels-fauxels-3183153",
+     "contentId": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+     "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/_thumbnail.jpg",
+     "contentFileName": "pexels-fauxels-3183153.jpg",
+     "embedType": "Inline",
+     "contentSize": 188017,
+     "addedAt": "2026-10-05T09:28:18.154Z",
+     "isReferenced": false,
+     "referenceMetadata": {
+      "libraryId": "62a49058-f438-458b-b9a9-313b465583e7",
+      "libraryName": "Common Library",
+      "folderPath": "Common Library",
+      "folderName": "Common Library",
+      "contentName": "pexels-fauxels-3183153",
+      "contentType": "Image",
+      "format": "JPG",
+      "createdAt": "2026-10-05T09:28:13.129Z",
+      "createdBy": "Ashley Madigan",
+      "createdByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+      "updatedAt": "2026-10-05T09:28:13.129Z",
+      "updatedBy": "Ashley Madigan",
+      "updatedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+     },
+     "hasAccess": true
+    }
+   ],
+   "authors": [
+    {
+     "userId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980",
+     "username": "Ashley.madigan+previewedaine@appspace.com",
+     "displayName": "Ashley Madigan",
+     "email": "Ashley.madigan+previewedaine@appspace.com",
+     "type": "Public"
+    }
+   ],
+   "captionContent": {
+    "content": {
+     "blocks": [
+      {
+       "key": "vws6r",
+       "type": "unstyled",
+       "text": "Our Code of Conduct is how we work with each other, with customers and with partners. It is short on purpose. Read it once now, and come back to it whenever a decision feels unclear.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "ed2ie",
+       "type": "header-two",
+       "text": "What we expect from everyone",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "c85tr",
+       "type": "unordered-list-item",
+       "text": "Treat colleagues, customers and partners with respect, in every channel and every language.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "zz91y",
+       "type": "unordered-list-item",
+       "text": "Be honest about what you know, what you do not know and what went wrong.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "m5hc6",
+       "type": "unordered-list-item",
+       "text": "Protect customer data as if it were your own.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "9iq7s",
+       "type": "unordered-list-item",
+       "text": "Speak up when something does not feel right. Raising a concern in good faith is always safe.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "qifds",
+       "type": "header-two",
+       "text": "Where to raise a concern",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "fob4d",
+       "type": "unstyled",
+       "text": "Talk to your manager first when you can. If that does not feel right, contact your People partner or use the confidential Speak Up line listed on the People Hub. Every report is reviewed by someone outside your reporting line.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "0u1nv",
+       "type": "header-two",
+       "text": "Acknowledge this page",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "lzmpx",
+       "type": "unstyled",
+       "text": "Use the acknowledge button at the end of this page to confirm you have read the Code. It ticks this step off in your onboarding journey.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": {},
+     "lastUpdatedAt": "2026-10-05T09:28:17.82Z"
+    },
+    "contentType": "DraftJS"
+   },
+   "permission": "rwd",
+   "cover": {
+    "contentType": "Image",
+    "contentUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/pexels-fauxels-3183153.jpg",
+    "contentName": "pexels-fauxels-3183153",
+    "contentId": "22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e",
+    "contentThumbnailUrl": "https://pre1.cloud.preview.appspace.com/contents/cb119359-a3bc-4fde-be53-ad3cfdb85237/22e3cf2a-4eb7-4b9e-b59b-be92a5d5cf3e/1791192493/_thumbnail.jpg",
+    "contentFileName": "pexels-fauxels-3183153.jpg",
+    "contentSize": 188017,
+    "addedAt": "2026-10-05T09:28:18.183Z",
+    "addedBy": "Ashley Madigan",
+    "addedByUserId": "f40f6bfe-3eb6-4af4-8c19-46c355d48980"
+   },
+   "postSchedule": {},
+   "configuration": {
+    "reaction": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "share": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "comment": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "insight": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "narration": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "generativeAI": {
+     "value": "Undefined",
+     "currentValue": "On",
+     "defaultValue": "On",
+     "isReadOnly": false
+    },
+    "reportedPost": {
+     "postReportWorkflow": "FlagPost",
+     "postReportThreshold": 1
+    }
+   },
+   "tags": [
+    "day1",
+    "must-read"
+   ],
+   "postId": "538997c0-74bb-497c-96bc-f26d89dd3aba",
+   "reactionSummary": {
+    "counters": []
+   },
+   "commentSummary": {
+    "totalCount": 0
+   },
+   "contentSummary": {
+    "linkCount": 0,
+    "mentionCount": 0,
+    "summaryType": "Undefined",
+    "captionType": "System"
+   },
+   "status": "Published",
+   "statistics": {
+    "viewCount": 0,
+    "uniqueViewCount": 0,
+    "impressionCount": 0
+   },
+   "metadata": [],
+   "isPromoted": false,
+   "isSpotlighted": false,
+   "publishedAt": "2026-10-05T09:28:17.449Z",
+   "contentUpdatedAt": "2026-10-05T09:28:17.88Z",
+   "additionalInfo": {},
+   "isMarkedOffline": false,
+   "isReported": false,
+   "isBookmarked": false,
+   "source": "Page",
+   "revision": 0,
+   "acknowledgment": {
+    "isEnabled": true,
+    "message": "I have read and understood the Code of Conduct.",
+    "currentAcknowledgmentVersion": 4
+   },
+   "locationIds": [],
+   "userGroupIds": [],
+   "audienceIds": []
+  }
+ ],
+ "start": 0,
+ "limit": 100,
+ "size": 12
+}

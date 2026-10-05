@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Action Required (harness)</title>
+  <script>
+    // Stub of widget-api.min.js. ?scene=<name> picks a scene from scenes.js,
+    // ?build=baseline loads the 1.1.2 build served under /baseline/ (BASELINE_DIR),
+    // ?w=<px> sets the column width, ?debug=1 turns Diagnostic mode on,
+    // ?click=<selector> clicks after onReady, ?log=1 prints host calls on the page.
+    (function () {
+      var q = new URLSearchParams(location.search);
+      window.BUILD = q.get('build') === 'baseline' ? '/baseline/' : '../dist/';
+      document.write('<link rel="stylesheet" href="' + window.BUILD + 'widget.css">');
+    })();
+  </script>
+  <script src="scenes.js"></script>
+  <script>
+    (function () {
+      var q = new URLSearchParams(location.search);
+      var FILES = { pending: 'pending.json', spacePages: 'space-pages.json', postAck: 'post-ack.json', wfy: 'wfy-pending.json', live: 'live-peoplehub.json' };
+      // Cover images point at the tenant; swap them for a local picture so shots are deterministic.
+      function localise(v) {
+        if (typeof v === 'string') return /^https:\/\/[^/]+\/contents\/.+\.(jpe?g|png|webp)$/i.test(v) ? '/test/thumb.svg' : v;
+        if (Array.isArray(v)) return v.map(localise);
+        if (v && typeof v === 'object') { var o = {}; Object.keys(v).forEach(function (k) { o[k] = localise(v[k]); }); return o; }
+        return v;
+      }
+      var F = {};
+      var loaded = Promise.all(Object.keys(FILES).map(function (k) {
+        return fetch('fixtures/' + FILES[k], { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (j) { F[k] = localise(j); });
+      }));
+      var scene = null; var conf = {};
+      function tell(t, d) {
+        var line = t + ' ' + JSON.stringify(d);
+        window.HOSTLOG = (window.HOSTLOG || []).concat(line);
+        if (q.get('log') === '1') { var el = document.getElementById('hostlog'); if (el) el.textContent = window.HOSTLOG.join('\n'); }
+        console.log('[host]', line);
+      }
+      function delay(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+      function copy(v) { return v === undefined ? v : JSON.parse(JSON.stringify(v)); }
+      var mock = {
+        getInfo: function () { return { version: 'harness' }; },
+        onLoading: function () { return Promise.resolve(); },
+        onLoaded: function () { return Promise.resolve(); },
+        onReady: function () {
+          tell('ready', true);
+          window.__ready = (window.__ready || 0) + 1;
+          document.documentElement.setAttribute('data-ready', String(window.__ready));
+          if (q.get('click')) setTimeout(function () { var el = document.querySelector(q.get('click')); tell('click', [q.get('click'), !!el]); if (el) el.click(); }, 300);
+          return Promise.resolve();
+        },
+        onDestroy: function () { return Promise.resolve(); },
+        raiseAnalyticsEvent: function (n, m) { tell('event', [n, m]); return Promise.resolve(); },
+        getConfiguration: function () { return Promise.resolve({ data: { configuration: conf, languageKey: 'en' } }); },
+        getUserInfo: function () { return Promise.resolve({ id: '91c93796-0c64-48a4-8535-99da6e031cba', displayName: 'Edaine Bernadina' }); },
+        getTheme: function () { return Promise.resolve({}); },
+        applyThemeToDocument: function () {
+          var s = document.documentElement.style;
+          s.setProperty('--nc-colors__brand1', '#0f0f10'); s.setProperty('--nc-colors__brandPale', 'rgb(242,242,243)');
+          s.setProperty('--nc-fontFamilies__regular', 'Inter, -apple-system, sans-serif');
+        },
+        setHeight: function () { return Promise.resolve(); },
+        navigate: function (u, t) { tell('navigate', [u, t]); return Promise.resolve(); },
+        callAppspaceAPI: function (name, o) {
+          var params = (o && o.params) || {};
+          tell('call', [name, params]);
+          return delay(scene.slow ? 2000 : 30).then(function () {
+            if (scene.opaque) throw new Error('Appspace API call failed: [object Object]');
+            var v = (scene.api || {})[name];
+            if (typeof v === 'function') v = v(params, F);
+            if (v === undefined) { var e = new Error('harness has no route for ' + name); e.status = 404; throw e; }
+            if (v && v.__status) { var f = new Error('Request failed with status code ' + v.__status); f.status = v.__status; throw f; }
+            return { status: 200, data: copy(v) };
+          });
+        },
+        callAuthenticatedAPI: function (n) { return Promise.reject(new Error('no authenticated route ' + n)); }
+      };
+      var ready = loaded.then(function () {
+        scene = window.makeScene(q.get('scene') || 'cards', F);
+        Object.keys(scene.config || {}).forEach(function (k) { conf[k] = { value: scene.config[k] }; });
+        if (q.get('debug') === '1') conf.debugMode = { value: true };
+        return mock;
+      });
+      if (q.get('w')) document.addEventListener('DOMContentLoaded', function () { document.body.style.width = q.get('w') + 'px'; });
+      window.appspace = { widgetApi: mock, waitForWidgetApi: function () { return ready; } };
+      window.addEventListener('error', function (e) { tell('CONSOLE ERROR', e.message); });
+    })();
+  </script>
+</head>
+<body style="margin:0;padding:16px;background:#fff;box-sizing:content-box">
+  <div id="root"></div>
+  <pre id="hostlog" style="font-size:10px;white-space:pre-wrap;word-break:break-all;color:#555"></pre>
+  <script>document.write('<script src="' + window.BUILD + 'widget.js"><\/script>');</script>
+</body>
+</html>

@@ -15,9 +15,9 @@ const archive = archiver('zip', {
 });
 
 output.on('close', function () {
-  console.log('\n✅ Widget package created successfully!');
-  console.log(`📦 Total bytes: ${archive.pointer()}`);
-  console.log(`📍 Location: ${outputPath}\n`);
+  console.log('\nWidget package created');
+  console.log(`Total bytes: ${archive.pointer()}`);
+  console.log(`Location: ${outputPath}\n`);
 });
 
 archive.on('error', function (err) {
@@ -39,5 +39,6 @@ if (fs.existsSync(passportSource)) {
   });
 }
 
-archive.directory(distPath, false);
+// Everything in dist except zips (an older build or this very zip, still being written).
+archive.glob('**/*', { cwd: distPath, ignore: ['*.zip'] });
 archive.finalize();
