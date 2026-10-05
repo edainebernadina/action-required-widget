@@ -69,7 +69,26 @@
       'wait-live': { config: merge(WAIT, {}), api: waitApi(F, F.live.prefs, F.live.pending.items) },
       // ---- the new settings on the cards look ----
       'cards-mixed': { config: merge(V112, { showDueDates: true, showReadTime: true, tasks: TASKS, spaceId: PEOPLEHUB, subtitle: 'Before Friday' }), api: waitApi(F) },
-      'cards-space': { config: merge(MUST, { layout: 'cards' }), api: spaceApi(F, DONE2) }
+      'cards-space': { config: merge(MUST, { layout: 'cards' }), api: spaceApi(F, DONE2) },
+      // ---- 3.0.0: spaceId is a Space picker; every older stored shape still works ----
+      'picker-space': { config: merge(MUST, { spaceId: [ONBOARDING] }), api: spaceApi(F, DONE2) },
+      'picker-two-spaces': { config: merge(MUST, { spaceId: [ONBOARDING, PEOPLEHUB] }), api: spaceApi(F, DONE2) },
+      'picker-pending': { config: merge(WAIT, { spaceId: [PEOPLEHUB] }), api: waitApi(F) },
+      'picker-empty-pending': { config: merge(WAIT, { spaceId: [], maxItems: 6 }), api: waitApi(F) },
+      'old-id-string': { config: merge(MUST, { spaceId: ONBOARDING }), api: spaceApi(F, DONE2) },
+      'old-comma-list': { config: merge(WAIT, { spaceId: 'aaaaaaaa-0000-0000-0000-000000000000, ' + PEOPLEHUB.toUpperCase() }), api: waitApi(F) },
+      'old-json-string': { config: merge(MUST, { spaceId: JSON.stringify([ONBOARDING]) }), api: spaceApi(F, DONE2) },
+      // Picker special values (verified live): All Spaces = zero GUID; Current Space = a token a custom widget cannot resolve.
+      'picker-all-pending': { config: merge(WAIT, { spaceId: ['00000000-0000-0000-0000-000000000000'], maxItems: 6 }), api: waitApi(F) },
+      'picker-all-space': { config: merge(MUST, { spaceId: ['00000000-0000-0000-0000-000000000000'] }), api: spaceApi(F, []) },
+      'picker-current-space': { config: merge(MUST, { spaceId: ['currentSpace'] }), api: spaceApi(F, []) },
+      'picker-current-pending': { config: merge(WAIT, { spaceId: ['currentSpace'], tasks: [] }), api: waitApi(F) },
+      // 2.0.0 placements stored the old non-blank wording defaults: they still read the same.
+      'v2-stored-defaults': { config: merge(WAIT, { buttonLabel: 'Read and acknowledge', readLabel: 'Read, {minutes} min', dueLabel: 'Read and acknowledge by {date}', acknowledgedLabel: 'Acknowledged', emptyText: 'You have no items that require acknowledgment.', dueTagPrefix: 'due-', wordsPerMinute: 200, acknowledgeUrlTemplate: '' }), api: waitApi(F) },
+      // ---- 3.0.0 new settings ----
+      'show-more': { config: merge(WAIT, { spaceId: '', maxItems: 2, showMore: true }), api: waitApi(F) },
+      'cards-show-more': { config: merge(V112, { maxItems: 2, showMore: true }), api: { getMyAcknowledgmentPosts: pendingOf(F) } },
+      'list-new-tab': { config: merge(WAIT, { linkTarget: '_blank' }), api: waitApi(F) }
     };
     return S[name] || S.cards;
   };

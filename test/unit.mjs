@@ -1,7 +1,7 @@
 // node test/unit.mjs : checks the logic ported from Must Reads and Waiting for you.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { buildRows, dueFromTags, fmtDay, mergePrefsBag, doneFromPrefs, readMinutes, taskKey, filterPending, filterSpacePages, sectionList } from '../src/logic.js';
+import { idList, spaceSelection, ALL_SPACES, buildRows, dueFromTags, fmtDay, mergePrefsBag, doneFromPrefs, readMinutes, taskKey, filterPending, filterSpacePages, sectionList } from '../src/logic.js';
 
 const fx = (f) => JSON.parse(fs.readFileSync(new URL('./fixtures/' + f, import.meta.url)));
 let n = 0; const t = (name, fn) => { fn(); n += 1; console.log('ok', name); };
@@ -64,5 +64,36 @@ t('waiting for you: due order, task merged, done task hidden', () => {
   assert.equal(rows[1].line, 'Takes one minute');
   assert.equal(buildRows(content, cfg, { tl54tic: 'x' }, {}).length, 2);
   assert.equal(buildRows(content, cfg, { tl54tic: 'x' }, { tl54tic: true }).length, 3);
+});
+t('spaceId: every stored shape gives the same ids', () => {
+  const A = '8aebbd86-a771-4a48-ab4a-97a636d93738';
+  const B = 'd78a3fdd-4f89-428c-b65f-cabfc3013434';
+  assert.deepEqual(idList(A), [A]);                                  // 2.0.0 text, one id
+  assert.deepEqual(idList(A.toUpperCase() + ', ' + B + ';' + A), [A, B]); // 2.0.0 comma list
+  assert.deepEqual(idList([A, B]), [A, B]);                            // 3.0.0 Space picker
+  assert.deepEqual(idList({ value: [B] }), [B]);                       // picker wrapped in value
+  assert.deepEqual(idList([{ id: A }]), [A]);                          // rows with an id
+  assert.deepEqual(idList(JSON.stringify([A])), [A]);                  // JSON string
+  assert.deepEqual(idList(''), []);
+  assert.deepEqual(idList([]), []);
+  assert.deepEqual(idList(null), []);
+});
+t('pending filter accepts the picker array', () => {
+  const items = fx('pending.json').items;
+  assert.equal(filterPending(items, { spaceId: ['8aebbd86-a771-4a48-ab4a-97a636d93738'] }).length, 12);
+});
+t('Show more: limit overrides maxItems, capped at 50', () => {
+  const items = fx('pending.json').items;
+  const content = filterPending(items, {}).map((post) => ({ post, acknowledged: false }));
+  assert.equal(buildRows(content, { maxItems: 3 }, {}, {}).length, 3);
+  assert.equal(buildRows(content, { maxItems: 3, limit: 50 }, {}, {}).length, items.length);
+});
+t('picker specials: All Spaces and the Current Space token', () => {
+  const A = '8aebbd86-a771-4a48-ab4a-97a636d93738';
+  assert.deepEqual(spaceSelection([ALL_SPACES]), { ids: [], all: true, unresolved: [] });
+  assert.deepEqual(spaceSelection(['currentSpace']), { ids: [], all: false, unresolved: ['currentspace'] });
+  assert.deepEqual(spaceSelection([A, ALL_SPACES]).ids, [A]);
+  const items = fx('pending.json').items;
+  assert.equal(filterPending(items, { spaceId: [ALL_SPACES] }).length, items.length);
 });
 console.log(n, 'passed');

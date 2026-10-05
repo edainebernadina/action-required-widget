@@ -9,6 +9,14 @@
     // ?build=baseline loads the 1.1.2 build served under /baseline/ (BASELINE_DIR),
     // ?w=<px> sets the column width, ?debug=1 turns Diagnostic mode on,
     // ?click=<selector> clicks after onReady, ?log=1 prints host calls on the page.
+    //
+    // Widget Lab (test/matrix.html, test/check.mjs):
+    //   state  = default | placeholder | loading | empty | error
+    //   empty  = caughtup | nothing | setup     (with state=empty; default caughtup)
+    //   role   = editor | employee | noaccess   (noaccess: every read answers 403)
+    //   layout = cards | list                   (overrides the scene's layout)
+    //   bare=1 no page padding (the frame is the widget's exact width)
+    //   plus: slow=1, fail=1 (500), opaque=1, nogrant=1 (403), theme=none, debug=1
     (function () {
       var q = new URLSearchParams(location.search);
       window.BUILD = q.get('build') === 'baseline' ? '/baseline/' : '../dist/';
@@ -32,6 +40,24 @@
         return fetch('fixtures/' + FILES[k], { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (j) { F[k] = localise(j); });
       }));
       var scene = null; var conf = {};
+      var stateName = q.get('state') || '';
+      var role = q.get('role') || 'editor';
+      var flag = function (k) { return q.get(k) === '1'; };
+      // Which scene a Widget Lab cell uses, per layout.
+      function sceneFor() {
+        if (!stateName) return q.get('scene') || 'cards';
+        var list = q.get('layout') === 'list';
+        if (stateName === 'empty') {
+          var kind = q.get('empty') || 'caughtup';
+          if (kind === 'nothing') return 'must-unknown-tag';
+          if (kind === 'setup') return 'must-nospace';
+          return list ? 'wait-empty' : 'cards-empty';
+        }
+        // No access: scenes without tasks (tasks come from the settings, so they
+        // would still show when the reads are refused).
+        if (role === 'noaccess' || flag('nogrant')) return q.get('scene') || (list ? 'must' : 'cards');
+        return q.get('scene') || (list ? 'wait' : 'cards-mixed');
+      }
       function tell(t, d) {
         var line = t + ' ' + JSON.stringify(d);
         window.HOSTLOG = (window.HOSTLOG || []).concat(line);
@@ -53,9 +79,18 @@
         },
         onDestroy: function () { return Promise.resolve(); },
         raiseAnalyticsEvent: function (n, m) { tell('event', [n, m]); return Promise.resolve(); },
-        getConfiguration: function () { return Promise.resolve({ data: { configuration: conf, languageKey: 'en' } }); },
+        getConfiguration: function () {
+          return Promise.resolve({ data: {
+            configuration: conf,
+            languageKey: 'en',
+            // The product passes isPlaceholder to built-in widgets; the custom
+            // widget host does not today. "harness" exists only here.
+            isPlaceholder: stateName === 'placeholder',
+            harness: { role: role === 'editor' ? 'editor' : 'viewer', debug: flag('debug') }
+          } });
+        },
         getUserInfo: function () { return Promise.resolve({ id: '91c93796-0c64-48a4-8535-99da6e031cba', displayName: 'Edaine Bernadina' }); },
-        getTheme: function () { return Promise.resolve({}); },
+        getTheme: function () { return q.get('theme') === 'none' ? Promise.reject(new Error('harness has no theme')) : Promise.resolve({}); },
         applyThemeToDocument: function () {
           var s = document.documentElement.style;
           s.setProperty('--nc-colors__brand1', '#0f0f10'); s.setProperty('--nc-colors__brandPale', 'rgb(242,242,243)');
@@ -66,8 +101,12 @@
         callAppspaceAPI: function (name, o) {
           var params = (o && o.params) || {};
           tell('call', [name, params]);
-          return delay(scene.slow ? 2000 : 30).then(function () {
-            if (scene.opaque) throw new Error('Appspace API call failed: [object Object]');
+          if (stateName === 'placeholder') return Promise.reject(new Error('placeholder must not fetch (' + name + ')'));
+          if (stateName === 'loading') return new Promise(function () { /* never answers: the skeleton stays */ });
+          return delay(scene.slow || flag('slow') ? 2000 : 30).then(function () {
+            if (scene.opaque || flag('opaque')) throw new Error('Appspace API call failed: [object Object]');
+            if (flag('fail') || stateName === 'error') { var x = new Error('Request failed with status code 500'); x.status = 500; throw x; }
+            if (flag('nogrant') || role === 'noaccess') { var y = new Error('Forbidden'); y.status = 403; throw y; }
             var v = (scene.api || {})[name];
             if (typeof v === 'function') v = v(params, F);
             if (v === undefined) { var e = new Error('harness has no route for ' + name); e.status = 404; throw e; }
@@ -78,12 +117,20 @@
         callAuthenticatedAPI: function (n) { return Promise.reject(new Error('no authenticated route ' + n)); }
       };
       var ready = loaded.then(function () {
-        scene = window.makeScene(q.get('scene') || 'cards', F);
+        scene = window.makeScene(sceneFor(), F);
         Object.keys(scene.config || {}).forEach(function (k) { conf[k] = { value: scene.config[k] }; });
+        if (q.get('layout')) conf.layout = { value: q.get('layout') };
         if (q.get('debug') === '1') conf.debugMode = { value: true };
         return mock;
       });
-      if (q.get('w')) document.addEventListener('DOMContentLoaded', function () { document.body.style.width = q.get('w') + 'px'; });
+      document.addEventListener('DOMContentLoaded', function () {
+        if (q.get('bare') === '1') { document.body.style.padding = '0'; document.getElementById('hostlog').style.display = 'none'; }
+        if (q.get('w')) document.body.style.width = q.get('w') + 'px';
+        // autoHeight: the real library reports body.scrollHeight on every resize.
+        function report() { if (parent !== window) parent.postMessage({ harness: true, type: 'height', data: document.body.scrollHeight }, '*'); }
+        if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
+        report();
+      });
       window.appspace = { widgetApi: mock, waitForWidgetApi: function () { return ready; } };
       window.addEventListener('error', function (e) { tell('CONSOLE ERROR', e.message); });
     })();

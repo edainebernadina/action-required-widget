@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Action Required - Widget Lab matrix</title>
+  <style>
+    /* The Widget Lab grid for one widget: 4 states x 4 sizes, repeated for
+       every layout variant. Each cell is the real widget in its own frame at
+       the exact content width, so width bands behave as on a page. */
+    body { margin: 0; background: #eef1f4; color: #1e293b; font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .bar { position: sticky; top: 0; z-index: 2; padding: 10px 16px; background: #11181f; color: #e6edf3; font-size: 13px; }
+    .bar label { margin-right: 16px; }
+    .bar select { font: inherit; }
+    .bar a { color: #7cc4ff; }
+    .bar .note { color: #96a4b2; margin-left: 8px; }
+    .variant { padding: 16px; }
+    .variant h2 { margin: 0 0 12px; font-size: 16px; }
+    .row { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 24px; }
+    .row-label { flex: 0 0 96px; font-weight: 600; padding-top: 28px; }
+    .cell { flex: 0 0 auto; }
+    .cell-label { font-size: 12px; color: #475369; margin-bottom: 4px; }
+    .slot { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.07); }
+    .slot iframe { display: block; border: 0; height: 120px; }
+    .hidden-note { padding: 12px 16px; color: #8493ae; font-size: 12px; font-style: italic; }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <label>Layout
+      <select id="layout">
+        <option value="all">All variants</option>
+        <option value="cards">Cards</option>
+        <option value="list">List</option>
+      </select>
+    </label>
+    <label>Viewing as
+      <select id="role">
+        <option value="editor">Editor</option>
+        <option value="employee">Employee</option>
+        <option value="noaccess">No access</option>
+      </select>
+    </label>
+    <label>Empty case
+      <select id="empty">
+        <option value="caughtup">Nothing waiting (positive)</option>
+        <option value="nothing">Nothing in the Space</option>
+        <option value="setup">Not set up</option>
+      </select>
+    </label>
+    <a href="frame.html">Scenes (frame.html?scene=...)</a>
+    <span class="note">States: Default, Placeholder, Loading, Empty. Sizes: Mobile 343, Small 327, Medium 630, Large 1024.</span>
+  </div>
+  <div id="grid"></div>
+
+  <script>
+    (function () {
+      // Keep in step with the layout variants the widget offers (schema.json "layout").
+      var VARIANTS = [['cards', 'Cards'], ['list', 'List']];
+      var STATES = [['default', 'Default'], ['placeholder', 'Placeholder'], ['loading', 'Loading'], ['empty', 'Empty']];
+      var SIZES = [['Mobile', 343], ['Small', 327], ['Medium', 630], ['Large', 1024]];
+
+      var query = new URLSearchParams(window.location.search);
+      var layoutSel = document.getElementById('layout');
+      var roleSel = document.getElementById('role');
+      var emptySel = document.getElementById('empty');
+      layoutSel.value = query.get('layout') || 'all';
+      roleSel.value = query.get('role') || 'editor';
+      emptySel.value = query.get('empty') || 'caughtup';
+
+      var frames = [];
+
+      function build() {
+        var grid = document.getElementById('grid');
+        var variants = layoutSel.value === 'all' ? VARIANTS : VARIANTS.filter(function (v) { return v[0] === layoutSel.value; });
+        frames = [];
+        grid.innerHTML = '';
+        variants.forEach(function (variant) {
+          var section = document.createElement('section');
+          section.className = 'variant';
+          section.innerHTML = '<h2>Layout: ' + variant[1] + '</h2>';
+          STATES.forEach(function (st) {
+            var row = document.createElement('div');
+            row.className = 'row';
+            row.innerHTML = '<div class="row-label">' + st[1] + '</div>';
+            SIZES.forEach(function (size) {
+              var cell = document.createElement('div');
+              cell.className = 'cell';
+              cell.innerHTML = '<div class="cell-label">' + st[1] + ' / ' + size[0] + ' ' + size[1] + '</div>';
+              var slot = document.createElement('div');
+              slot.className = 'slot';
+              var frame = document.createElement('iframe');
+              frame.title = variant[1] + ' ' + st[1] + ' ' + size[0];
+              frame.style.width = size[1] + 'px';
+              frame.src = 'frame.html?bare=1&state=' + st[0] + '&layout=' + variant[0] + '&role=' + roleSel.value + '&empty=' + emptySel.value;
+              slot.appendChild(frame);
+              var note = document.createElement('div');
+              note.className = 'hidden-note';
+              note.hidden = true;
+              note.textContent = 'Hidden for this viewer (renders nothing).';
+              slot.appendChild(note);
+              cell.appendChild(slot);
+              row.appendChild(cell);
+              frames.push({ frame: frame, note: note });
+            });
+            section.appendChild(row);
+          });
+          grid.appendChild(section);
+        });
+      }
+
+      // Each frame reports its content height; size that frame only.
+      window.addEventListener('message', function (event) {
+        var msg = event.data;
+        if (!msg || !msg.harness || msg.type !== 'height') return;
+        for (var i = 0; i < frames.length; i++) {
+          if (frames[i].frame.contentWindow === event.source) {
+            var h = Number(msg.data) || 0;
+            frames[i].frame.style.height = Math.max(h, 0) + 'px';
+            frames[i].note.hidden = h > 0;
+            return;
+          }
+        }
+      });
+
+      function update() {
+        var q = '?layout=' + layoutSel.value + '&role=' + roleSel.value + '&empty=' + emptySel.value;
+        history.replaceState(null, '', q);
+        build();
+      }
+      layoutSel.addEventListener('change', update);
+      roleSel.addEventListener('change', update);
+      emptySel.addEventListener('change', update);
+      build();
+    })();
+  </script>
+</body>
+</html>

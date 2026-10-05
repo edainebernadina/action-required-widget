@@ -1,14 +1,14 @@
 {
   "name": "action-required",
-  "version": "2.0.0",
-  "description": "Lists what the viewer must read and acknowledge (pending items, or the pages of one space), with due dates, read time and tasks",
+  "version": "3.0.0",
+  "description": "Lists what the viewer must read and acknowledge (pending items, or the pages of chosen Spaces), with due dates, read time and tasks",
   "private": true,
   "scripts": {
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production && npm run package",
     "package": "node scripts/package.js",
     "test": "node --no-warnings test/unit.mjs",
-    "serve": "PORT=4871 node test/serve.js"
+    "serve": "PORT=4717 node test/serve.js"
   },
   "dependencies": {
     "react": "^18.2.0",

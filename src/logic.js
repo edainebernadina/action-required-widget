@@ -9,6 +9,8 @@
  *    en-GB day format, task keys, space filter, preference merge.
  */
 
+import { t } from './strings.js';
+
 // ---- config ---------------------------------------------------------------
 
 export const PREF_KEY = 'waitingForYou';
@@ -36,8 +38,61 @@ export const sectionList = (raw, names) => {
   });
 };
 
-export const splitIds = (text) =>
-  String(text || '').split(/[\s,;]+/).map((s) => s.trim().toLowerCase()).filter(Boolean);
+/**
+ * Space ids, from every shape the spaceId setting has had:
+ *  - 3.0.0 Space picker (feedPicker): ["<id>", ...], possibly as {value: [...]}
+ *    or rows like {id}
+ *  - up to 2.0.0 text field: one id, or several separated by commas
+ *  - a JSON string of either
+ * Returns lower-case ids, no blanks, no duplicates.
+ */
+export const idList = (raw) => {
+  let v = raw;
+  if (v && typeof v === 'object' && !Array.isArray(v) && 'value' in v) v = v.value;
+  if (typeof v === 'string') {
+    const s = v.trim();
+    if (/^[[{"]/.test(s)) {
+      try { v = JSON.parse(s); } catch (e) { v = s; }
+    }
+  }
+  if (v && typeof v === 'object' && !Array.isArray(v)) v = [v];
+  const parts = Array.isArray(v)
+    ? v.map((x) => (x && typeof x === 'object' ? (x.id || x.feedId || x.value || '') : x))
+    : String(v || '').split(/[\s,;]+/);
+  const out = [];
+  parts.forEach((p) => {
+    const id = String(p == null ? '' : p).trim().toLowerCase();
+    if (id && out.indexOf(id) === -1) out.push(id);
+  });
+  return out;
+};
+
+export const ALL_SPACES = '00000000-0000-0000-0000-000000000000';
+const GUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
+
+/**
+ * What the Space picker value means (verified live, 5 Oct 2026):
+ *  - all:        the picker's "All Spaces" value (the zero GUID)
+ *  - unresolved: the "Current Space" token (any non-GUID value); a custom
+ *                widget cannot tell which Space it sits in, so this counts as
+ *                not set up and editors are told
+ *  - ids:        real Space, Channel or topic ids
+ */
+export const spaceSelection = (raw) => {
+  const out = { ids: [], all: false, unresolved: [] };
+  idList(raw).forEach((id) => {
+    if (id === ALL_SPACES) out.all = true;
+    else if (GUID.test(id)) out.ids.push(id);
+    else out.unresolved.push(id);
+  });
+  return out;
+};
+
+/** Ids to filter on: none (every Space) when "All Spaces" is among them. */
+export const splitIds = (raw) => {
+  const sel = spaceSelection(raw);
+  return sel.all ? [] : sel.ids;
+};
 
 // ---- dates (local calendar days, en-GB "Fri 9 Oct") -----------------------
 
@@ -49,7 +104,7 @@ export const parseDay = (text) => {
 
 export const fmtDay = (d) => {
   try {
-    return new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short' }).format(d);
+    return new Intl.DateTimeFormat(t('dateLocale'), { weekday: 'short', day: 'numeric', month: 'short' }).format(d);
   } catch (e) {
     return d.toDateString();
   }
@@ -168,13 +223,13 @@ export const buildRows = (content, cfg, done, justDone) => {
     const due = showDue && !acknowledged ? dueFromTags(post.tags, cfg.dueTagPrefix) : null;
     const minutes = showRead ? readMinutes(post, cfg.wordsPerMinute) : 0;
     let line = '';
-    if (acknowledged) line = String(cfg.acknowledgedLabel || 'Acknowledged');
-    else if (due) line = String(cfg.dueLabel || 'Read and acknowledge by {date}').replace(/\{date\}/g, fmtDay(due));
-    else if (showRead) line = String(cfg.readLabel || 'Read, {minutes} min').replace(/\{minutes\}/g, String(minutes));
+    if (acknowledged) line = String(cfg.acknowledgedLabel || t('acknowledgedLabel'));
+    else if (due) line = String(cfg.dueLabel || t('dueLabel')).replace(/\{date\}/g, fmtDay(due));
+    else if (showRead) line = String(cfg.readLabel || t('readLabel')).replace(/\{minutes\}/g, String(minutes));
     rows.push({
       kind: 'ack',
       key: String(post.postId || post.id || ''),
-      title: String(post.title || post.caption || post.name || 'Untitled').trim() || 'Untitled',
+      title: String(post.title || post.caption || post.name || '').trim() || t('untitled'),
       post,
       acknowledged: !!acknowledged,
       due,
@@ -182,26 +237,30 @@ export const buildRows = (content, cfg, done, justDone) => {
       line,
     });
   });
-  const tasks = sectionList(cfg.tasks, ['title', 'note', 'linkUrl', 'dueDate']).filter((t) => t.title);
-  tasks.forEach((t) => {
-    const key = taskKey(t.title);
+  const tasks = sectionList(cfg.tasks, ['title', 'note', 'linkUrl', 'dueDate']).filter((task) => task.title);
+  tasks.forEach((task) => {
+    const key = taskKey(task.title);
     if (done && done[key] && !(justDone && justDone[key])) return;
-    const due = parseDay(t.dueDate);
+    const due = parseDay(task.dueDate);
     rows.push({
       kind: 'task',
       key,
-      title: t.title,
-      url: t.linkUrl,
+      title: task.title,
+      url: task.linkUrl,
       acknowledged: false,
       due,
       minutes: 0,
-      line: t.note || (due ? 'By ' + fmtDay(due) : ''),
+      line: task.note || (due ? t('taskBy', { date: fmtDay(due) }) : ''),
     });
   });
   if (showDue || tasks.length) {
     const FAR = 8640000000000000;
     rows.sort((a, b) => (a.due ? a.due.getTime() : FAR) - (b.due ? b.due.getTime() : FAR));
   }
-  const max = Math.min(50, Math.max(1, Number(cfg.maxItems) || 5));
+  // limit: rows wanted (How many, or every row up to 50 once Show more is open).
+  const max = Math.min(50, Math.max(1, Number(cfg.limit != null ? cfg.limit : cfg.maxItems) || 5));
   return rows.slice(0, max);
 };
+
+/** How many rows to show: maxItems, or up to 50 behind Show more. */
+export const clampItems = (v) => Math.min(50, Math.max(1, Math.round(Number(v)) || 5));

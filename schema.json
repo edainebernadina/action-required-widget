@@ -1,8 +1,8 @@
 {
   "templateKey": "widget-action-required-v1",
   "name": "Action Required",
-  "version": "2.0.0",
-  "description": "What the viewer still has to read and acknowledge. By default every pending item across the tenant with a button per row; can also list the tagged pages of one space with Acknowledged or read time, show due dates from a due- tag, and add tasks each viewer ticks off with Done.",
+  "version": "3.0.0",
+  "description": "What the viewer still has to read and acknowledge: everything waiting for them, or the pages of chosen Spaces with Acknowledged or read time. Can show due dates from a due- tag and add tasks each viewer ticks off with Done.",
   "icon": "images/action-required.svg",
   "author": {
     "name": "WXI Team",
@@ -10,6 +10,7 @@
     "email": "wxi@company.com"
   },
   "widgetType": "custom",
+  "allowMultiple": true,
   "supportedSpaceTypes": [
     "homepage",
     "community",
@@ -65,7 +66,7 @@
         "label": "What to list",
         "groupName": "Content",
         "groupKey": "content",
-        "description": "Waiting for me: everything the viewer still has to acknowledge, from any space. Pages of one space: the pages of the space below, acknowledged or not.",
+        "description": "Waiting for me: everything the viewer still has to acknowledge, from any Space. Pages of chosen Spaces or topics: the pages of the ones picked below, acknowledged or not.",
         "options": [
           {
             "value": "pending",
@@ -73,23 +74,19 @@
           },
           {
             "value": "space",
-            "label": "Pages of one space"
+            "label": "Pages of chosen Spaces or topics"
           }
         ],
         "default": "pending"
       },
       {
         "name": "spaceId",
-        "type": "text",
-        "label": "Space ID",
+        "type": "feedPicker",
+        "label": "Spaces or topics",
+        "description": "Pages of chosen Spaces: the Spaces or topics whose pages are listed (pick them by name; All Spaces and Current Space do not work here). Waiting for me: optional, only items from these; leave empty or pick All Spaces for every Space.",
+        "default": [],
         "groupName": "Content",
-        "groupKey": "content",
-        "description": "The ID at the end of the space's address. With Waiting for me it is optional and only keeps items from these spaces (separate several with commas); leave it empty for every space.",
-        "default": "",
-        "validation": {
-          "required": false,
-          "maxLength": 400
-        }
+        "groupKey": "content"
       },
       {
         "name": "tag",
@@ -97,10 +94,9 @@
         "label": "Only with this tag",
         "groupName": "Content",
         "groupKey": "content",
-        "description": "For example must-read. Leave empty for every item.",
+        "description": "Only items with this tag, for example must-read. Leave empty for every item.",
         "default": "",
         "validation": {
-          "required": false,
           "maxLength": 80
         }
       },
@@ -120,9 +116,9 @@
         "name": "tasks",
         "type": "sections",
         "label": "Tasks",
-        "groupName": "Tasks",
-        "groupKey": "tasks",
-        "description": "Things every viewer should do once, next to the pages. Each viewer ticks a task off with Done; it then stays off their list.",
+        "groupName": "Content",
+        "groupKey": "content",
+        "description": "Things every viewer should do once, next to the pages. Each viewer ticks a task off with Done; it then stays off their list. Keep a task's title unchanged once people have ticked it off.",
         "sectionConfig": {
           "min": 0,
           "max": 8,
@@ -132,20 +128,22 @@
               "type": "text",
               "label": "Task",
               "description": "For example: Confirm your emergency contact.",
-              "default": ""
+              "default": "",
+              "translatable": true
             },
             {
               "name": "note",
               "type": "text",
               "label": "Line under it",
               "description": "For example: Takes one minute. Leave empty to show the due date.",
-              "default": ""
+              "default": "",
+              "translatable": true
             },
             {
               "name": "linkUrl",
               "type": "text",
               "label": "Link",
-              "description": "Where the task is done: a page, a form or another system.",
+              "description": "Optional. Where the task is done: a page, a form or another system.",
               "default": ""
             },
             {
@@ -162,10 +160,10 @@
       {
         "name": "layout",
         "type": "dropdown",
-        "label": "Look",
+        "label": "Layout",
         "groupName": "Display",
         "groupKey": "display",
-        "description": "Cards: picture, title and a button per item. List: a quiet list with a line under each title.",
+        "description": "Cards: picture, title and a button per item. List: a quiet list with a line under each title and Done for tasks.",
         "options": [
           {
             "value": "cards",
@@ -179,30 +177,26 @@
         "default": "cards"
       },
       {
-        "name": "subtitle",
-        "type": "text",
-        "label": "Line at the top",
+        "name": "maxItems",
+        "type": "number",
+        "label": "How many",
+        "description": "Items shown, tasks included (1 to 50). With Show more off and the Cards layout, four are visible at once and the rest scroll.",
         "groupName": "Display",
         "groupKey": "display",
-        "description": "Leave empty to hide it.",
-        "default": "",
+        "default": 5,
         "validation": {
-          "required": false,
-          "maxLength": 200
+          "min": 1,
+          "max": 50
         }
       },
       {
-        "name": "buttonLabel",
-        "type": "text",
-        "label": "Button label",
-        "description": "Label on each row's button (Cards), or the line under a page waiting for the viewer (List).",
+        "name": "showMore",
+        "type": "switch",
+        "label": "Show more button",
+        "description": "Shows How many items with a button that opens the rest (up to 50).",
+        "default": false,
         "groupName": "Display",
-        "groupKey": "display",
-        "default": "Read and acknowledge",
-        "validation": {
-          "required": false,
-          "maxLength": 80
-        }
+        "groupKey": "display"
       },
       {
         "name": "showReadTime",
@@ -214,22 +208,6 @@
         "default": false
       },
       {
-        "name": "readLabel",
-        "type": "text",
-        "label": "Read time label",
-        "groupName": "Display",
-        "groupKey": "display",
-        "description": "{minutes} becomes the read time.",
-        "default": "Read, {minutes} min",
-        "validation": {
-          "required": false,
-          "maxLength": 80
-        },
-        "visibleWhen": {
-          "showReadTime": "true"
-        }
-      },
-      {
         "name": "wordsPerMinute",
         "type": "number",
         "label": "Reading speed",
@@ -238,7 +216,6 @@
         "description": "Words per minute used for the read time.",
         "default": 200,
         "validation": {
-          "required": false,
           "min": 100,
           "max": 400
         },
@@ -256,22 +233,6 @@
         "default": false
       },
       {
-        "name": "dueLabel",
-        "type": "text",
-        "label": "Line under a page with a due date",
-        "groupName": "Display",
-        "groupKey": "display",
-        "description": "{date} becomes the date from the page's due- tag.",
-        "default": "Read and acknowledge by {date}",
-        "validation": {
-          "required": false,
-          "maxLength": 80
-        },
-        "visibleWhen": {
-          "showDueDates": "true"
-        }
-      },
-      {
         "name": "dueTagPrefix",
         "type": "text",
         "label": "Due date tag prefix",
@@ -280,7 +241,6 @@
         "description": "Change it if your tags use another word.",
         "default": "due-",
         "validation": {
-          "required": false,
           "maxLength": 40
         },
         "visibleWhen": {
@@ -288,55 +248,121 @@
         }
       },
       {
+        "name": "subtitle",
+        "type": "text",
+        "label": "Line at the top",
+        "groupName": "Wording",
+        "groupKey": "wording",
+        "description": "Optional line above the list. Leave blank to show none.",
+        "default": "",
+        "validation": {
+          "maxLength": 200
+        },
+        "translatable": true
+      },
+      {
+        "name": "buttonLabel",
+        "type": "text",
+        "label": "Button text",
+        "description": "The button on each item (Cards), or the line under a page waiting for the viewer (List). Leave blank for the standard wording, which is translated.",
+        "groupName": "Wording",
+        "groupKey": "wording",
+        "default": "",
+        "validation": {
+          "maxLength": 80
+        },
+        "translatable": true
+      },
+      {
+        "name": "readLabel",
+        "type": "text",
+        "label": "Read time text",
+        "groupName": "Wording",
+        "groupKey": "wording",
+        "description": "{minutes} becomes the read time. Leave blank for the standard wording, which is translated.",
+        "default": "",
+        "validation": {
+          "maxLength": 80
+        },
+        "visibleWhen": {
+          "showReadTime": "true"
+        },
+        "translatable": true
+      },
+      {
+        "name": "dueLabel",
+        "type": "text",
+        "label": "Due date text",
+        "groupName": "Wording",
+        "groupKey": "wording",
+        "description": "{date} becomes the date from the page's due- tag. Leave blank for the standard wording, which is translated.",
+        "default": "",
+        "validation": {
+          "maxLength": 80
+        },
+        "visibleWhen": {
+          "showDueDates": "true"
+        },
+        "translatable": true
+      },
+      {
         "name": "acknowledgedLabel",
         "type": "text",
-        "label": "Acknowledged label",
-        "groupName": "Display",
-        "groupKey": "display",
-        "description": "Shown on a page the viewer has acknowledged.",
-        "default": "Acknowledged",
+        "label": "Acknowledged text",
+        "groupName": "Wording",
+        "groupKey": "wording",
+        "description": "Shown on a page the viewer has acknowledged. Leave blank for the standard wording, which is translated.",
+        "default": "",
         "validation": {
-          "required": false,
           "maxLength": 80
-        }
+        },
+        "translatable": true
       },
       {
         "name": "emptyText",
         "type": "text",
-        "label": "When nothing is waiting",
-        "groupName": "Display",
-        "groupKey": "display",
-        "description": "Shown when the list is empty.",
-        "default": "You have no items that require acknowledgment.",
+        "label": "Nothing waiting text",
+        "groupName": "Wording",
+        "groupKey": "wording",
+        "description": "Shown when nothing is waiting for the viewer. Leave blank for the standard wording, which is translated.",
+        "default": "",
         "validation": {
-          "required": false,
           "maxLength": 200
-        }
+        },
+        "translatable": true
       },
       {
-        "name": "maxItems",
-        "type": "number",
-        "label": "Maximum items to show",
-        "description": "Maximum number of items to load. Up to four are visible at once; additional rows scroll inside the list.",
-        "groupName": "Display",
-        "groupKey": "display",
-        "default": 5,
-        "validation": {
-          "min": 1,
-          "max": 50,
-          "required": true
-        }
+        "name": "linkTarget",
+        "type": "dropdown",
+        "label": "Open links in",
+        "description": "Automatic: Cards open the item in a new tab, List in the same tab. Intranet links open inside the app.",
+        "default": "auto",
+        "options": [
+          {
+            "value": "auto",
+            "label": "Automatic"
+          },
+          {
+            "value": "_blank",
+            "label": "New tab"
+          },
+          {
+            "value": "_self",
+            "label": "Same tab"
+          }
+        ],
+        "groupName": "Advanced",
+        "groupKey": "advanced"
       },
       {
         "name": "acknowledgeUrlTemplate",
         "type": "text",
-        "label": "Acknowledge URL template (optional)",
-        "description": "Override link for the button. Use {postId}, {origin}, and {type} placeholders. Leave blank to build a console deep link from post type.",
+        "label": "Link address (optional)",
+        "description": "Where an item opens instead of the standard link. Use {postId}, {origin} and {type}. Leave blank for the standard link.",
         "groupName": "Advanced",
         "groupKey": "advanced",
         "default": "",
         "validation": {
-          "required": false,
           "maxLength": 500
         }
       },
@@ -346,7 +372,7 @@
         "label": "Diagnostic mode",
         "groupName": "Advanced",
         "groupKey": "advanced",
-        "description": "Shows a technical panel under the widget: settings as read, every API call and its result. Turn off before publishing.",
+        "description": "Shows a technical panel under the widget (settings as read, every API call, raw errors) and the editor views of the empty cases. For building and support; turn it off before the page goes live.",
         "default": false
       }
     ]
@@ -397,6 +423,5 @@
         }
       ]
     }
-  ],
-  "allowMultiple": true
+  ]
 }
