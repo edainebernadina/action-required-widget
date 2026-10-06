@@ -1,8 +1,8 @@
 ---
 title: Action Required on Appspace
 status: Brought to the product widget standard in v3.0.0 (Space picker, Widget Lab states, empty rule) and harness-tested; since 6 October 2026 every pre1 placement runs v3.0.0 (Safety Hub, Welcome to Keystone Dynamics, People Hub and the two Sales Team rooms), settings carried over or converted, render checked as an administrator; the three-role test is outstanding
-date: 5 October 2026
-versions: Action Required widget v3.0.0
+date: 6 October 2026
+versions: Action Required widget v3.0.1
 ---
 
 # 1. Problem statement
@@ -151,13 +151,13 @@ Nothing waiting is a positive empty because for a to-do list it is the answer; a
 
 ## 4.1 Get the package
 
-In the internal catalog, open Widgets, then Action Required. Download zip gives `widget-action-required-3.0.0.zip`. With an environment connected at the top of the POC tool, Install puts the template straight into that instance instead; placement and configuration remain Console steps either way.
+In the internal catalog, open Widgets, then Action Required. Download zip gives `widget-action-required-3.0.1.zip`. With an environment connected at the top of the POC tool, Install puts the template straight into that instance instead; placement and configuration remain Console steps either way.
 
 The template identity is the key inside the zip, `widget-action-required-v1`. Note the `-v1` suffix: it is not derivable from the zip name, and an upload under any other key creates a second template.
 
 ## 4.2 Upload and place
 
-1. In Console, open the custom widget templates area and upload `widget-action-required-3.0.0.zip` as a custom widget template. If the template already exists, upload onto it to create the new version.
+1. In Console, open the custom widget templates area and upload `widget-action-required-3.0.1.zip` as a custom widget template. If the template already exists, upload onto it to create the new version.
 2. Open the page the widget belongs on. On a homepage, use the theme editor and add the custom widget to a placement. On a Space, add it to a row from the Custom Widget tab. Communities, topics and channels accept it as well.
 3. Give the placement a title such as "Action required": the widget draws none of its own.
 4. Set the fields below and publish the page. Leave Diagnostic mode off.
@@ -250,8 +250,10 @@ The widget lists what still needs a read and an acknowledgment, and any tasks th
 
 | Package | Notes |
 |---|---|
-| `widget-action-required-3.0.0.zip` | Custom widget template, key `widget-action-required-v1`. Homepage, community, topic and channel. Twenty-one settings in Content, Display, Wording and Advanced, six API entries, four analytics events. Built by `npm run build` (webpack and the project's package script) into its dist folder. |
+| `widget-action-required-3.0.1.zip` | Custom widget template, key `widget-action-required-v1`. Homepage, community, topic and channel. Twenty-one settings in Content, Display, Wording and Advanced, six API entries, four analytics events. Built by `npm run build` (webpack and the project's package script) into its dist folder. |
 
 Verification status: harness only for v3.0.0, on 5 October 2026; live re-test and the three-role test outstanding. In the harness, headless in Chrome: all 16 matrix cells for both layouts (Cards and List) as an editor and as an employee, the no-access row, the not-set-up and nothing-in-the-Space cases as editor and employee, and scenes for slow, 500, opaque error, 403, no theme, Diagnostic mode, Show more, Open links in, a Done write, and the picker's All Spaces and Current Space values, and the old stored shapes of the Space setting (one ID, a comma list, a JSON string, the new picker list, and 2.0.0 wording stored explicitly): 208 checks, `onReady` once, no console errors, no sideways scroll. The 15 logic unit tests pass. Earlier history, for v2.0.0: the 2.0.0 logic ported from Must Reads and Waiting for you has unit tests, and the project harness runs 25 scenes on fixtures copied from both old widgets, several of them real API responses; the 1.1.2 configuration was checked pixel for pixel against the 1.1.2 build. On pre1, v2.0.0 is placed on the Safety Hub demo Site in space scope with the tag `safety-policy`, due dates, the list look and a "Signed off" label, over four acknowledgment pages tagged `safety-policy` and a `due-` date, and on other demo Sites. Beyond that placement, live behaviour of v2.0.0 is not recorded: in particular the task preference write, the pending-scope space filter and paging past 50 items. The pending endpoint was verified live on pre1 on 29 September 2026 (pending items only, across every space). Earlier history: the initial version, v1.1.0 for Widget API 1.13.2 compliance, and v1.1.2, which simplified the configuration, all on 8 June 2026. The 2.0.0 zip no longer contains a copy of itself.
 
 Live on pre1, 6 October 2026: all five placements moved to v3.0.0 (from 1.1.2 and 2.0.0). The two 1.1.2 placements kept running on defaults, which 3.0.0 reproduces; the 2.0.0 ones kept their Space (typed id stored as a picker value), tag, layout, tasks and custom wording. Checked as an administrator: Safety Hub lists the four policies with due dates, Must reads shows read times, People Hub shows the emergency-contact task and the Code of Conduct sign-off, and both Sales Team rooms list the pending pages with Read and acknowledge.
+
+Action Required v3.0.1 (6 October 2026): the empty, loading and placeholder views match the Console's Widget Lab, measured across all built-in widgets: the Cosmos illustration `tasks` in a neutral100 box (radius 12, padding 24) at 96 px narrow and 280 px from the medium band up, 14 px neutral700 text, neutral200 pill skeletons whose fill pulses to neutral100 over 1.5 s, flat neutral200 placeholder blocks, and a 0.6 s fade-in when data replaces the skeleton. List settings now start with one row in the editor (min 1); with min 0 the editor showed the row's fields with nothing behind them and typed values were lost. The repo's harness checks re-run and pass, the empty and loading views were screenshot at 343 and 630 px and reviewed, and every pre1 placement moved to this version.
