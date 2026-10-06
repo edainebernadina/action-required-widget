@@ -1,7 +1,7 @@
 {
   "templateKey": "widget-action-required-v1",
   "name": "Action Required",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "What the viewer still has to read and acknowledge: everything waiting for them, or the pages of chosen Spaces with Acknowledged or read time. Can show due dates from a due- tag and add tasks each viewer ticks off with Done.",
   "icon": "images/action-required.svg",
   "author": {

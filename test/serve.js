@@ -16,7 +16,10 @@ const TYPES = {
 
 http
   .createServer((req, res) => {
-    const urlPath = decodeURIComponent(req.url.split('?')[0]);
+    let urlPath = decodeURIComponent(req.url.split('?')[0]);
+    // The widget asks for images/ next to widget.html; the harness page sits in
+    // test/, so serve those from the build.
+    if (urlPath.indexOf('/test/images/') === 0) urlPath = '/dist' + urlPath.slice('/test'.length);
     if (urlPath === '/') { res.writeHead(302, { Location: '/test/frame.html' + (req.url.indexOf('?') !== -1 ? req.url.slice(req.url.indexOf('?')) : '') }).end(); return; }
     // /baseline/... serves an older build (BASELINE_DIR) for side-by-side comparison.
     const base = process.env.BASELINE_DIR && urlPath.indexOf('/baseline/') === 0 ? path.resolve(process.env.BASELINE_DIR) : ROOT;

@@ -1,6 +1,6 @@
 {
   "name": "action-required",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Lists what the viewer must read and acknowledge (pending items, or the pages of chosen Spaces), with due dates, read time and tasks",
   "private": true,
   "scripts": {

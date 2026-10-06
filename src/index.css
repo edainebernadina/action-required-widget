@@ -357,10 +357,11 @@ body.ar-large .ar-row .ar-line:empty {
 
 /* ---- loading skeleton and placeholder (same shape) ---------------------- */
 
+/* Text bars are pills, as in the Widget Lab; the picture keeps its square. */
 .ar-bar {
   display: block;
   height: 12px;
-  border-radius: 6px;
+  border-radius: 1000px;
   background: var(--ar-n200);
 }
 
@@ -393,6 +394,7 @@ body.ar-large .ar-row .ar-line:empty {
 .ar-thumb.ar-bar {
   height: 56px;
   border: 0;
+  border-radius: 6px;
 }
 
 body.ar-medium .ar-thumb.ar-bar {
@@ -403,13 +405,14 @@ body.ar-large .ar-thumb.ar-bar {
   height: 80px;
 }
 
+/* Loading pulses the fill (neutral200 -> neutral100), not the opacity. */
 .ar-skel .ar-bar {
-  animation: ar-pulse 1.4s var(--ar-ease) infinite;
+  animation: ar-pulse 1.5s ease-in-out infinite;
 }
 
+/* Placeholder: flat neutral200 blocks, no animation. */
 .ar-placeholder .ar-bar {
-  background: var(--ar-n100);
-  border: 1px dashed var(--ar-n300);
+  background: var(--ar-n200);
 }
 
 .ar-ghost {
@@ -419,39 +422,51 @@ body.ar-large .ar-thumb.ar-bar {
 }
 
 @keyframes ar-pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.45; }
+  0%, 100% { background-color: var(--ar-n200); }
+  50% { background-color: var(--ar-n100); }
+}
+
+/* Loaded rows fade in once, when they replace the skeleton. */
+.ar-fade-in {
+  animation: ar-fade-in 0.6s ease-in-out;
+}
+
+@keyframes ar-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ar-skel .ar-bar { animation: none; }
+  .ar-skel .ar-bar,
+  .ar-fade-in { animation: none; }
 }
 
 /* ---- empty, error, diagnostics ---------------------------------------- */
 
+/* The Widget Lab empty box: neutral100, 12px radius, 24px padding, centred. */
 .ar-empty {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   gap: 8px;
-  padding: 16px 8px;
+  padding: 24px;
+  border-radius: 12px;
+  background: var(--ar-n100);
 }
 
+/* The Cosmos illustration: 96px wide in the narrow band, 280px from medium up. */
 .ar-empty-art {
+  display: block;
   width: 96px;
-  height: 70px;
+  height: auto;
 }
 
+body.ar-medium .ar-empty-art,
 body.ar-large .ar-empty-art {
-  width: 120px;
-  height: 88px;
+  width: 280px;
 }
-
-.ar-art-sheet { fill: var(--ar-n0); stroke: var(--ar-n300); stroke-width: 2; }
-.ar-art-line { fill: var(--ar-n200); }
-.ar-art-badge { fill: var(--ar-brand-pale); stroke: var(--ar-brand); stroke-width: 2; }
-.ar-art-tick { fill: none; stroke: var(--ar-brand); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
 
 .ar-empty-title {
   font-size: 16px;
@@ -461,6 +476,8 @@ body.ar-large .ar-empty-art {
 
 .ar-empty-text {
   font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
   color: var(--ar-n700);
   max-width: 32em;
 }

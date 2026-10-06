@@ -226,17 +226,8 @@ const saveLocal = (key, done) => {
   }
 };
 
-/* Stand-in for the Cosmos empty-state illustration (content1), on theme tokens. */
-const EmptyArt = () => (
-  <svg className="ar-empty-art" viewBox="0 0 120 88" aria-hidden="true" focusable="false">
-    <rect x="22" y="10" width="62" height="72" rx="8" className="ar-art-sheet" />
-    <rect x="32" y="24" width="34" height="6" rx="3" className="ar-art-line" />
-    <rect x="32" y="38" width="42" height="6" rx="3" className="ar-art-line" />
-    <rect x="32" y="52" width="26" height="6" rx="3" className="ar-art-line" />
-    <circle cx="86" cy="62" r="16" className="ar-art-badge" />
-    <path d="M79 62.5l5 5 9-10" className="ar-art-tick" />
-  </svg>
-);
+/* The Cosmos empty-state illustration (tasks), packaged in images/. Decorative. */
+const EmptyArt = () => <img className="ar-empty-art" src="images/empty.svg" alt="" />;
 
 const ActionRequired = () => {
   const [config, setConfig] = useState(null);
@@ -775,7 +766,7 @@ const ActionRequired = () => {
   ) : null);
 
   const renderList = () => (
-    <section className="ar-root ar-list-look">
+    <section className="ar-root ar-list-look ar-fade-in">
       {subtitle ? <p className="ar-subtitle">{subtitle}</p> : null}
       <ul className="ar-list" aria-label={t('listLabel')}>
         {items.map((row) => {
@@ -822,7 +813,7 @@ const ActionRequired = () => {
   const renderCards = () => {
     const isScroll = !showMoreOn && items.length > VISIBLE_ROW_CAP;
     return (
-      <section className="ar-root ar-cards-look">
+      <section className="ar-root ar-cards-look ar-fade-in">
         {subtitle ? <p className="ar-subtitle">{subtitle}</p> : null}
         <div ref={listScrollRef} className={['ar-cards-outer', isScroll && 'is-scroll'].filter(Boolean).join(' ')}>
           <ul className="ar-cards" aria-label={t('listLabel')}>
