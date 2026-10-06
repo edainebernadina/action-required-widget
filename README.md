@@ -153,7 +153,7 @@ The zip holds `schema.json`, `widget.html`, `widget.js`, `widget.css`,
 
 - 3.0.1 (2026-10-06): Empty, loading and placeholder views match the product's
   Widget Lab: the Cosmos illustration (tasks), the grey empty box, 96 / 280 px
-  illustration sizes, the background-pulse skeleton and a 0.6 s fade-in.
+  illustration sizes, the background-pulse skeleton and a 0.6 s fade-in. List settings start with one row in the editor (min 1): with min 0 the editor showed the row's fields with no row behind them, so what an editor typed was not saved.
 - 3.0.0 (2026-10-05): product widget standard. `spaceId` is now a Space picker
   (old single ID, comma list and JSON values still read). Settings regrouped
   into Content, Display, Wording, Advanced; Wording fields translatable and

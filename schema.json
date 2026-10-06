@@ -120,7 +120,7 @@
         "groupKey": "content",
         "description": "Things every viewer should do once, next to the pages. Each viewer ticks a task off with Done; it then stays off their list. Keep a task's title unchanged once people have ticked it off.",
         "sectionConfig": {
-          "min": 0,
+          "min": 1,
           "max": 8,
           "fields": [
             {
