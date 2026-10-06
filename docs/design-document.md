@@ -1,6 +1,6 @@
 ---
 title: Action Required on Appspace
-status: Brought to the product widget standard in v3.0.0 (Space picker, Widget Lab states, empty rule) and harness-tested; v2.0.0 runs on pre1 demo Sites; the live re-test of v3.0.0 and the three-role test are outstanding
+status: Brought to the product widget standard in v3.0.0 (Space picker, Widget Lab states, empty rule) and harness-tested; v3.0.0 runs on the pre1 Safety Hub Site since 6 October 2026 (its 2.0.0 settings carried over, the typed Space id stored as a picker value; render checked as an administrator); another pre1 demo Site is still on v2.0.0; the three-role test is outstanding
 date: 5 October 2026
 versions: Action Required widget v3.0.0
 ---
